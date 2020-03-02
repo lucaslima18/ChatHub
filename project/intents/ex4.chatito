@@ -1,0 +1,265 @@
+%[licenciamento_ambiental]('training': '100', 'testing': '40')
+    *[20%]~[precisa_licenciar]
+    *[20%]~[tipo_licenca]
+    *[20%]~[micro_empresa]
+    *[20%]~[potencial_poluidor]
+    *[20%]~[renovar_licenca]
+
+#Minha atividade precisa ser licenciada? ---> (obrigatorio)
+~[precisa_licenciar]
+    ~[atividade] @[obrigatorio] ~[licenciamento] ~[ambiental]
+    @[obrigatorio] ~[licenciamento] ~[ambiental]
+    ~[licenciamento] ~[ambiental] @[obrigatorio]
+
+@[obrigatorio]
+    obrigatorio
+    obrigatoria
+    obrigatório
+    obrigatória
+    obrigado
+    obrigação
+    obrigacao
+    precisa
+    é necessário
+    tem a necessidade
+
+~[licenciamento]
+    licenciamento
+    licenca
+    licença
+    licenciado
+    licenciar
+    liberação 
+    licenciatura
+
+~[ambiental]
+    ambiental
+    ambiente
+    natureza
+    naturesa
+
+~[atividade]
+    atividade
+    empresa
+    comércio
+    comercio
+
+#Qual tipo de licença preciso solicitar? ---> (tipo)
+~[tipo_licenca]
+    ~[qual] @[tipo] ~[licenciamento] ~[ambiental] ~[requisito] ~[solicitar]
+    @[tipo] ~[licenciamento] ~[ambiental]
+
+@[tipo]
+    tipo
+    formas
+    maneiras
+
+
+#Sou micro empresa, preciso me licenciar? ---> (micro_empresa)
+~[micro_empresa]
+    @[micro_empresa] ~[requisito] ~[licenciamento] ~[ambiental]
+    ~[licenciamento] ~[ambiental] @[micro_empresa]
+
+@[micro_empresa]
+    micro empresa
+    microempresa
+    pequena empresa
+    empresinha
+
+#Como saber o Potencial Poluidor da minha atividade? ---> (poluicao)
+~[potencial_poluidor]
+    ~[como] ~[sei] potencial @[poluicao]
+    ~[qual] potencial @[poluicao]
+    potencial @[poluicao]
+    ~[como] ~[sei] potêncial @[poluicao]
+    ~[qual] potêncial @[poluicao]
+    potêncial @[poluicao]
+
+@[poluicao]
+    poluidor 
+    poluir
+    poluição
+    poluindo
+
+#Como proceder para solicitar a renovação da minha licença? ---> (atualizacao)
+~[renovar_licenca]
+    ~[posso] @[atualizacao] ~[licenciamento] ~[ambiental]
+
+@[atualizacao]
+    atualização
+    atualizacao
+    atualizar 
+    atualizo
+    renovar
+    renovação
+    renovar
+    renovo
+    atualizar 
+
+
+################################################################################################
+##################################### COMMON TERMS #############################################
+################################################################################################
+
+~[usar]
+    usar
+    utilizar
+
+~[quando]
+    em que momento
+    em que ocasião 
+    a partir de quando 
+    quando 
+    em que situação
+
+~[deve_ser]
+    é
+    deve ser
+    é preciso
+
+~[da]
+    de
+    da
+    do
+    das
+    dos
+
+~[sobre]
+    sobre 
+    referente a
+    pertinente a 
+
+~[falta]
+    ausencia
+    falta
+    sem
+    ausência
+
+~[qual]
+    qual
+    quale
+    qual é
+    qual seria
+
+~[pode]
+    pode 
+    tem Como
+    é possível
+    poderia
+    pode ser
+
+~[entrada]
+    entrada
+    entrou
+    entra
+
+~[tenho]
+    tenho
+    possuo
+    disponho
+
+~[como_fazer]
+    ~[como_solicitar]
+    ~[como_faco]
+    ~[fazer]
+    ~[solicitar]
+    ~[onde] ~[fazer]
+    ~[onde] ~[faço] ~[realizar?]
+    ~[onde] ~[faço] ~[solicitar?]
+    etapas
+    quais os passos
+    quais as etapas
+
+~[como_solicitar]
+    como ~[fazer] ~[para_realizar?]
+    como ~[fazer] ~[para_solicitar?]
+
+~[como_faco]
+    como ~[faço] ~[realizar?]
+    como ~[faço] ~[solicitar?]
+
+~[para_realizar]
+    ~[para] ~[realizar]
+
+~[para_solicitar]
+    ~[para] ~[solicitar]
+
+~[realizar]
+    realizar
+    fazer
+
+~[solicitar]
+    solicitar 
+    pedir
+
+~[para]
+    para
+    pra
+
+~[fazer]
+    realizar
+    fazer
+    posso fazer
+
+~[faço]
+    faço ~[para?]
+    realizo
+    posso
+    consigo
+
+~[oque]
+    oq
+    oque
+    o que
+    qq
+    o quê
+
+~[onde]
+    onde
+    qual local
+    qual lugar
+    que lugar
+    que local
+
+~[quanto]
+    quanto
+    qt
+
+~[custa]
+    custa
+    preço
+    valor
+    precisa pagar
+    preciso pagar
+
+~[requisito]
+    precisa
+    preciso
+    necessário
+    requisito
+    pedido
+    necessita
+
+~[diz]
+    diz
+    me diz
+    me conta 
+    me explica
+
+~[quem_pode]
+    ~[quem] ~[pode]
+    eu posso
+    ~[quem] ~[faz]
+
+~[quem]
+    quem
+    qm
+    qual pessoa
+
+~[faz]
+    faz
+    solicita
+    realiza
+    emiti
+    emite
+

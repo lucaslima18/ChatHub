@@ -1,0 +1,239 @@
+%[liberar_mercadoria_retida]('training': '100', 'testing': '40')
+    *[50%]~[documentacao]
+    *[50%]~[antes_jugamento]
+
+#Qual o documento fiscal que deverá ser emitido no caso de liberação de mercadoria, que
+#tenha sido objeto de autuação no trânsito, por motivo do documental fiscal inidônio, em
+#conformidade o artigo 131 do Decreto 24.567/97? ---> (documentacao)
+~[documentacao]
+    ~[qual] ~[deve_ser] os @[documentacao] ~[para_realizar] a ~[liberar] de ~[mercadoria] que foi ~[retida]
+    ~[qual] ~[deve_ser] os @[documentacao] ~[fiscal] ~[para_realizar] a ~[liberar] de ~[mercadoria] que foi ~[retida]
+    @[documentacao] ~[para_solicitar] a ~[liberar] de ~[mercadoria] ~[retida]
+    @[documentacao] ~[liberar] ~[mercadoria] ~[retida]
+    @[documentacao] ~[fiscal] ~[liberar] ~[mercadoria] ~[retida] 
+
+~[mercadoria]
+    mercadoria
+    produto
+    compras
+
+~[retida]
+    retida
+    presa 
+    apreendida 
+    regulada
+    preso
+    apreendido
+    detoda
+    detido
+    capturado
+    capturada
+    autuação
+    autuada
+
+~[liberar]
+    liberarada 
+    liberar
+    liberação
+    libera
+    despensar 
+    despensa
+    libertar
+    liberto
+
+@[documentacao]
+    documentação
+    documentos
+    doc 
+    docs 
+    documento 
+    declaração
+    declaracao
+    declarações 
+    comprovante
+    identidade
+    id
+    rg 
+    titulo eleitoral
+    titulo eleitor 
+    cpf
+
+~[fiscal]
+    fiscal
+    fiscais
+
+#O que é necessário para providenciar a liberação de mercadorias retidas pelo fisco, antes do 
+#julgamento do processo? ---> (antes_jugamento)
+~[antes_jugamento]
+    ~[qual] ~[deve_ser] os @[documentacao] ~[para_realizar] a ~[liberar] de ~[mercadoria] que foi ~[retida] @[antes_jugamento]
+    @[documentacao] ~[para_solicitar] a ~[liberar] de ~[mercadoria] ~[retida] @[antes_jugamento]
+    @[documentacao] ~[liberar] ~[mercadoria] ~[retida] @[antes_jugamento]
+    @[documentacao] ~[fiscal] ~[liberar] ~[mercadoria] ~[retida] @[antes_jugamento]
+
+@[antes_jugamento]
+    anterior julgamento 
+    antes julgamento
+    antes julgado
+    anterior julgarem
+    antes audiência
+    anterior audiencia
+
+################################################################################################
+##################################### COMMON TERMS #############################################
+################################################################################################
+
+~[quando]
+    em que momento
+    em que ocasião 
+    a partir de quando 
+    quando 
+    em que situação
+
+~[deve_ser]
+    é
+    deve ser
+    é preciso
+
+~[da]
+    de
+    da
+    do
+    das
+    dos
+
+~[sobre]
+    sobre 
+    referente a
+    pertinente a 
+
+~[falta]
+    ausencia
+    falta
+    sem
+    ausência
+
+~[qual]
+    qual
+    quale
+    qual é
+    qual seria
+
+~[pode]
+    pode 
+    tem Como
+    é possível
+    poderia
+    pode ser
+
+~[entrada]
+    entrada
+    entrou
+    entra
+
+~[tenho]
+    tenho
+    possuo
+    disponho
+
+~[como_fazer]
+    ~[como_solicitar]
+    ~[como_faco]
+    ~[fazer]
+    ~[solicitar]
+    ~[onde] ~[fazer]
+    ~[onde] ~[faço] ~[realizar?]
+    ~[onde] ~[faço] ~[solicitar?]
+    etapas
+    quais os passos
+    quais as etapas
+
+~[como_solicitar]
+    como ~[fazer] ~[para_realizar?]
+    como ~[fazer] ~[para_solicitar?]
+
+~[como_faco]
+    como ~[faço] ~[realizar?]
+    como ~[faço] ~[solicitar?]
+
+~[para_realizar]
+    ~[para] ~[realizar]
+
+~[para_solicitar]
+    ~[para] ~[solicitar]
+
+~[realizar]
+    realizar
+    fazer
+
+~[solicitar]
+    solicitar 
+    pedir
+
+~[para]
+    para
+    pra
+
+~[fazer]
+    realizar
+    fazer
+    posso fazer
+
+~[faço]
+    faço ~[para?]
+    realizo
+    posso
+    consigo
+
+~[oque]
+    oq
+    oque
+    o que
+    qq
+    o quê
+
+~[onde]
+    onde
+    qual local
+    qual lugar
+    que lugar
+    que local
+
+~[quanto]
+    quanto
+    qt
+
+~[custa]
+    custa
+    preço
+    valor
+    precisa pagar
+    preciso pagar
+
+~[requisito]
+    preciso
+    necessário
+    requisito
+    pedido
+
+~[diz]
+    diz
+    me diz
+    me conta 
+    me explica
+
+~[quem_pode]
+    ~[quem] ~[pode]
+    eu posso
+    ~[quem] ~[faz]
+
+~[quem]
+    quem
+    qm
+    qual pessoa
+
+~[faz]
+    faz
+    solicita
+    realiza
+    emiti
+    emite

@@ -1,0 +1,230 @@
+%[selagem_notas_fiscais]('training': '100', 'testing': '40')
+    *[33%]~[obrigatorio]
+    *[33%]~[importacao]
+    *[33%]~[penalidade]
+
+#Quando a selagem de notas fiscais é obrigatória? ---> (obrigatorio)
+~[obrigatorio]
+    ~[quando] a ~[selagem] ~[da] ~[nota] ~[fiscal] ~[deve_ser] @[obrigatorio]
+    a ~[selagem] ~[de] ~[nota] ~[fiscal] ~[deve_ser] @[obrigatorio]
+    ~[selagem] ~[de] ~[nota] ~[fiscal] ~[deve_ser] @[obrigatorio]
+
+~[nota]
+    nota
+    nfce
+    notinha
+    nota
+    nf
+
+~[fiscal]
+    fiscal
+    fiscais
+
+~[selagem]
+    selo 
+    selagem
+    selamento
+    aplicar selo
+    aplico selo
+    inserção selo
+    inserir selo
+
+@[obrigatorio]
+    obrigatorio
+    obrigatoria
+    obrigatório
+    obrigatória
+    obrigado
+    obrigação
+    obrigacao
+    precisa
+    é necessário
+    tem a necessidade
+
+#Em que situação a Nota Fiscal de entrada relativa a importação precisa ser selada? ---> (importacao)
+~[importacao]
+    ~[quando] a ~[selagem] ~[da] ~[nota] ~[fiscal] ~[sobre] @[importacao] ~[deve_ser] @[obrigatorio]
+    a ~[selagem] ~[da] ~[nota] ~[fiscal] ~[sobre] @[importacao] ~[deve_ser] @[obrigatorio]
+
+@[importacao]
+    importação
+    importar
+    importacao
+
+#Qual a penalidade aplicável pela falta de aposição do Selo Fiscal de Trânsito nas operações de 
+#entrada e de saída de mercadorias no Estado do Ceará? ---> (penalidade)
+~[penalidade]
+    ~[qual] a @[penalidade] ~[aplicada] ~[falta] ~[da] ~[selagem] ~[da] ~[nota] ~[fiscal]
+    ~[qual] a @[penalidade] ~[falta] ~[da] ~[selagem] ~[da] ~[nota] ~[fiscal]
+    ~[falta] ~[da] ~[selagem] ~[da] ~[nota] ~[fiscal] ~[qual] @[penalidade]
+    ~[qual] @[penalidade] ~[falta] ~[da] ~[selagem] ~[da] ~[nota] ~[fiscal] 
+
+@[penalidade]
+    punição
+    penalidade
+    punicao
+    multa
+
+~[aplicada]
+    aplicada
+    aplica
+
+################################################################################################
+##################################### COMMON TERMS #############################################
+################################################################################################
+
+~[quando]
+    em que momento
+    em que ocasião 
+    a partir de quando 
+    quando 
+    em que situação
+
+~[deve_ser]
+    é
+    deve ser
+    é preciso
+
+~[da]
+    de
+    da
+    do
+    das
+    dos
+
+~[sobre]
+    sobre 
+    referente a
+    pertinente a 
+
+~[falta]
+    ausencia
+    falta
+    sem
+    ausência
+
+~[qual]
+    qual
+    quale
+    qual é
+    qual seria
+
+~[pode]
+    pode 
+    tem Como
+    é possível
+    poderia
+    pode ser
+
+~[entrada]
+    entrada
+    entrou
+    entra
+
+~[tenho]
+    tenho
+    possuo
+    disponho
+
+~[como_fazer]
+    ~[como_solicitar]
+    ~[como_faco]
+    ~[fazer]
+    ~[solicitar]
+    ~[onde] ~[fazer]
+    ~[onde] ~[faço] ~[realizar?]
+    ~[onde] ~[faço] ~[solicitar?]
+    etapas
+    quais os passos
+    quais as etapas
+
+~[como_solicitar]
+    como ~[fazer] ~[para_realizar?]
+    como ~[fazer] ~[para_solicitar?]
+
+~[como_faco]
+    como ~[faço] ~[realizar?]
+    como ~[faço] ~[solicitar?]
+
+~[para_realizar]
+    ~[para] ~[realizar]
+
+~[para_solicitar]
+    ~[para] ~[solicitar]
+
+~[realizar]
+    realizar
+    fazer
+
+~[solicitar]
+    solicitar 
+    pedir
+
+~[para]
+    para
+    pra
+
+~[fazer]
+    realizar
+    fazer
+    posso fazer
+
+~[faço]
+    faço ~[para?]
+    realizo
+    posso
+    consigo
+
+~[oque]
+    oq
+    oque
+    o que
+    qq
+    o quê
+
+~[onde]
+    onde
+    qual local
+    qual lugar
+    que lugar
+    que local
+
+~[quanto]
+    quanto
+    qt
+
+~[custa]
+    custa
+    preço
+    valor
+    precisa pagar
+    preciso pagar
+
+~[requisito]
+    preciso
+    necessário
+    requisito
+    pedido
+
+~[diz]
+    diz
+    me diz
+    me conta 
+    me explica
+
+~[quem_pode]
+    ~[quem] ~[pode]
+    eu posso
+    ~[quem] ~[faz]
+
+~[quem]
+    quem
+    qm
+    qual pessoa
+
+~[faz]
+    faz
+    solicita
+    realiza
+    emiti
+    emite

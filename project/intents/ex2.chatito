@@ -1,0 +1,238 @@
+%[emissao_nfce]('training': '100', 'testing': '40')
+    ~[entidades_emissao_nfce]
+
+~[entidades_emissao_nfce]
+    *[33%]~[quando_emitido]
+    *[33%]~[acompanhar_saida]
+    *[33%]~[integrador]
+
+#Em que situação será emitida a Nota Fiscal de Consumidor Eletrônica? --> (emitir)
+~[quando_emitido]
+    ~[quando] será @[emitir] a ~[nota] ~[fiscal]
+    @[emitir] ~[nota] ~[fiscal]
+
+@[emitir]
+    emitir
+    emissão
+    emissao
+    emite
+    tirar
+    tira
+
+~[nota]
+    nota 
+    nfce 
+    notinha
+    nota
+    nfc-e
+
+~[fiscal]
+    fiscal
+    fiscais
+
+@[documentacao]
+    documentação
+    documentos
+    doc 
+    docs 
+    documento 
+    declaração
+    declaracao
+    declarações 
+    comprovante
+    identidade
+    id
+    rg 
+    titulo eleitoral
+    titulo eleitor 
+    cpf
+
+#É necessário somente o DANFE NFC-e para acompanhar a saída de mercadoria do estabelecimento
+#comercial cuja transação estiver documentada por NFC-e ? ---> (acompanhar)
+~[acompanhar_saida]
+    ~[para] @[acompanhar] ~[saida] da ~[nota] ~[fiscal]
+    ~[qual] @[documentacao] ~[para] @[acompanhar] ~[saida] ~[nota] ~[fiscal]
+
+@[acompanhar]
+    acompanho
+    acompanhar
+    acompanhamento
+
+~[saida]
+    saida 
+    saída 
+    saída
+    saida
+
+#A emissão da Nota Fiscal Consumidor Eletrônica, NFC-e, exige a utilização do Integrador Fiscal?
+# ---> (integrador)
+~[integrador]
+    ~[para] @[emitir] a ~[nota] ~[fiscal] ~[deve] ~[usar] o @[integrador] ~[fiscal]
+    ~[pode] ~[usar] o @[integrador] ~[fiscal] ~[para] @[emitir] a ~[nota] ~[fiscal]
+    Em que situação será emitida a Nota Fiscal de Consumidor Eletrônica?
+@[integrador]
+    integrador
+
+################################################################################################
+##################################### COMMON TERMS #############################################
+################################################################################################
+
+~[usar]
+    usar
+    utilizar
+
+~[quando]
+    em que momento
+    em que ocasião 
+    a partir de quando 
+    quando 
+    em que situação
+
+~[deve_ser]
+    é
+    deve ser
+    é preciso
+
+~[da]
+    de
+    da
+    do
+    das
+    dos
+
+~[sobre]
+    sobre 
+    referente a
+    pertinente a 
+
+~[falta]
+    ausencia
+    falta
+    sem
+    ausência
+
+~[qual]
+    qual
+    quale
+    qual é
+    qual seria
+
+~[pode]
+    pode 
+    tem Como
+    é possível
+    poderia
+    pode ser
+
+~[entrada]
+    entrada
+    entrou
+    entra
+
+~[tenho]
+    tenho
+    possuo
+    disponho
+
+~[como_fazer]
+    ~[como_solicitar]
+    ~[como_faco]
+    ~[fazer]
+    ~[solicitar]
+    ~[onde] ~[fazer]
+    ~[onde] ~[faço] ~[realizar?]
+    ~[onde] ~[faço] ~[solicitar?]
+    etapas
+    quais os passos
+    quais as etapas
+
+~[como_solicitar]
+    como ~[fazer] ~[para_realizar?]
+    como ~[fazer] ~[para_solicitar?]
+
+~[como_faco]
+    como ~[faço] ~[realizar?]
+    como ~[faço] ~[solicitar?]
+
+~[para_realizar]
+    ~[para] ~[realizar]
+
+~[para_solicitar]
+    ~[para] ~[solicitar]
+
+~[realizar]
+    realizar
+    fazer
+
+~[solicitar]
+    solicitar 
+    pedir
+
+~[para]
+    para
+    pra
+
+~[fazer]
+    realizar
+    fazer
+    posso fazer
+
+~[faço]
+    faço ~[para?]
+    realizo
+    posso
+    consigo
+
+~[oque]
+    oq
+    oque
+    o que
+    qq
+    o quê
+
+~[onde]
+    onde
+    qual local
+    qual lugar
+    que lugar
+    que local
+
+~[quanto]
+    quanto
+    qt
+
+~[custa]
+    custa
+    preço
+    valor
+    precisa pagar
+    preciso pagar
+
+~[requisito]
+    preciso
+    necessário
+    requisito
+    pedido
+
+~[diz]
+    diz
+    me diz
+    me conta 
+    me explica
+
+~[quem_pode]
+    ~[quem] ~[pode]
+    eu posso
+    ~[quem] ~[faz]
+
+~[quem]
+    quem
+    qm
+    qual pessoa
+
+~[faz]
+    faz
+    solicita
+    realiza
+    emiti
+    emite

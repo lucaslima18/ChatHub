@@ -1,0 +1,219 @@
+%[credenciamento_atacadistas]('training': '100', 'testing': '40')
+    *[50%]~[negado]
+    *[50%]~[menos_cinco_notas]
+
+#Existe situação em que a Secretaria da Fazenda pode negar o credenciamento? ---> (negado)
+~[negado]
+    ~[quando] a ~[sefaz] ~[pode] @[negado] o ~[credenciamento]
+    o ~[credenciamento] de ~[atacadistas] ~[pode] @[negado]
+    ~[credenciamento] de ~[atacadistas] ~[pode] @[negado]
+
+~[sefaz]
+    sefaz
+    Secretaria de Estado da Fazenda
+    secretaria da Fazenda
+
+@[negado]
+    negado
+    negar
+    negou
+    negação
+    negacao
+
+~[credenciamento]
+    credenciar 
+    credenciamento
+    credencio
+
+~[atacadistas]
+    atacadistas
+    atacado
+
+#Tenho uma média inferior a 5(cinco) notas fiscais de entrada interestadual nos últimos 12(doze) 
+#meses. Como posso fazer o credenciamento? ---> (media_menor_cinco)
+~[menos_cinco_notas]
+    ~[tenho] @[media_menor_cinco] ~[nota] ~[fiscal] de ~[entrada] ~[interestadual] ~[como_fazer] ~[credenciamento] ~[atacadistas]
+    ~[como_fazer] ~[credenciamento] ~[atacadistas] com @[media_menor_cinco] de ~[nota] ~[fiscal]
+    @[media_menor_cinco] de ~[nota] ~[fiscal] ~[pode] ~[realizar] ~[credenciamento] de ~[atacadistas]
+
+@[media_menor_cinco]
+    média menor que 5
+    menos de 5
+    não chega a 5
+    menos que cinco
+    inferior a 5
+
+~[nota]
+    nota 
+    nfce 
+    notinha
+    nota
+
+~[fiscal]
+    fiscal
+    fiscais
+
+~[interestadual]
+    entre dois estados
+    interestadual
+    inter estadual
+
+################################################################################################
+##################################### COMMON TERMS #############################################
+################################################################################################
+
+~[quando]
+    em que momento
+    em que ocasião 
+    a partir de quando 
+    quando 
+    em que situação
+
+~[deve_ser]
+    é
+    deve ser
+    é preciso
+
+~[da]
+    de
+    da
+    do
+    das
+    dos
+
+~[sobre]
+    sobre 
+    referente a
+    pertinente a 
+
+~[falta]
+    ausencia
+    falta
+    sem
+    ausência
+
+~[qual]
+    qual
+    quale
+    qual é
+    qual seria
+
+~[pode]
+    pode 
+    tem Como
+    é possível
+    poderia
+    pode ser
+
+~[entrada]
+    entrada
+    entrou
+    entra
+
+~[tenho]
+    tenho
+    possuo
+    disponho
+
+~[como_fazer]
+    ~[como_solicitar]
+    ~[como_faco]
+    ~[fazer]
+    ~[solicitar]
+    ~[onde] ~[fazer]
+    ~[onde] ~[faço] ~[realizar?]
+    ~[onde] ~[faço] ~[solicitar?]
+    etapas
+    quais os passos
+    quais as etapas
+
+~[como_solicitar]
+    como ~[fazer] ~[para_realizar?]
+    como ~[fazer] ~[para_solicitar?]
+
+~[como_faco]
+    como ~[faço] ~[realizar?]
+    como ~[faço] ~[solicitar?]
+
+~[para_realizar]
+    ~[para] ~[realizar]
+
+~[para_solicitar]
+    ~[para] ~[solicitar]
+
+~[realizar]
+    realizar
+    fazer
+
+~[solicitar]
+    solicitar 
+    pedir
+
+~[para]
+    para
+    pra
+
+~[fazer]
+    realizar
+    fazer
+    posso fazer
+
+~[faço]
+    faço ~[para?]
+    realizo
+    posso
+    consigo
+
+~[oque]
+    oq
+    oque
+    o que
+    qq
+    o quê
+
+~[onde]
+    onde
+    qual local
+    qual lugar
+    que lugar
+    que local
+
+~[quanto]
+    quanto
+    qt
+
+~[custa]
+    custa
+    preço
+    valor
+    precisa pagar
+    preciso pagar
+
+~[requisito]
+    preciso
+    necessário
+    requisito
+    pedido
+
+~[diz]
+    diz
+    me diz
+    me conta 
+    me explica
+
+~[quem_pode]
+    ~[quem] ~[pode]
+    eu posso
+    ~[quem] ~[faz]
+
+~[quem]
+    quem
+    qm
+    qual pessoa
+
+~[faz]
+    faz
+    solicita
+    realiza
+    emiti
+    emite
