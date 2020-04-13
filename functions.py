@@ -26,6 +26,7 @@ def readIntents():
             intent = line.strip()
             chatito_file = f"{intent}.chatito"
             generateRasaPhrases(chatito_file, intent)
+            print(intent)
 
 def generateRasaPhrases(chatito_file, intent):
     # inserir verificações depois
@@ -160,10 +161,12 @@ def mountDict(file_name, service):
 #main functions
 def runTraining():
     diretorios = os.listdir('project/json_files')
+    print(diretorios)
 
     for file_name in diretorios:
         file_extention = file_name.split('_')
         file_extention = file_extention[1]
+        print(file_extention)
         
         if file_extention == 'training.json':
             service = 'training'
