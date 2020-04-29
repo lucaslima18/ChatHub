@@ -88,7 +88,7 @@ def create_example(example, *args):
         print(f'Failed to train this sentence!\nText: {example.get("text")}')
         return
 
-def create_evaluate_examples(*args):
+def create_evaluate_examples(file_name, *args):
     with open(f'project/json_files/{file_name}') as json_file:
         examples = json.load(json_file)
         index = 0
@@ -123,7 +123,7 @@ def delete_all():
             print(f"%.2f%%" % ((index*100)/count))
 
 def mountDict(file_name, service):
-    with open(f'project/json_files/{file_name}') as json_file:
+        with open(f'project/json_files/{file_name}') as json_file:
             examples = json.load(json_file)['rasa_nlu_data']['common_examples']
             count = len(examples)
             index = 0
@@ -156,8 +156,11 @@ def mountDict(file_name, service):
                     create_example(result)
                 
                 elif service == 'testing':
+                    print("OLHA O TREINO")
                     create_evaluate_examples(file_name,result)
 
+                else:
+                    print("NAO ROLOU")
 #main functions
 def runTraining():
     diretorios = os.listdir('project/json_files')
@@ -177,8 +180,10 @@ def runTraining():
 
 def runTesting():
     diretorios = os.listdir('project/json_files')
-
+    print(diretorios)
+    
     for file_name in diretorios:
+        print(file_name)
         file_extention = file_name.split('_')
         file_extention = file_extention[1]
         
@@ -187,4 +192,4 @@ def runTesting():
 
         if file_extention == 'testing.json':
             service = 'testing'
-            result = mountDict(file_name, service)
+            mountDict(file_name, service)
