@@ -1,4 +1,5 @@
 from settings import *
+from functions import *
 
 # from functions import *
 
@@ -6,13 +7,23 @@ from settings import *
 def getService(SERVICE_TYPE):
     if SERVICE_TYPE == "training" or SERVICE_TYPE == "1":
         print("criar treinos")
-        # readIntents()
-        # runTraining()
+        readIntents()
+
+        if REPOSITORY_UUID == 'null':
+            get_repository_uuid(SERVICE_TYPE)
+
+        else:
+            runTraining()
 
     elif SERVICE_TYPE == "testing" or SERVICE_TYPE == "2":
         print("cirar testes")
-        # readIntents()
-        # runTesting()
+        readIntents()
+        
+        if REPOSITORY_UUID == 'null':
+            get_repository_uuid(SERVICE_TYPE)
+
+        else:
+            runTesting()
 
     elif SERVICE_TYPE == "clear" or SERVICE_TYPE == "3":
         sure = input("Tem certeza que deseja deletar? [y/n]\n")
@@ -32,6 +43,7 @@ def getService(SERVICE_TYPE):
         print("to learn more about the project visit: (https://github.com/lucaslima18/ChatHub)")
 
     elif SERVICE_TYPE == "close" or SERVICE_TYPE == "0":
+        os.system('rm -rf project/json_files')
         print("bye...")
         exit()
 
@@ -46,6 +58,7 @@ if SERVICE_TYPE == "null":
     binary_answer = ""
     print("################################")
     print("###### WELCOME TO CHATHUB ######")
+    print("################################")
 
     while binary_answer != "n":
         print("############# MENU #############\n")
@@ -57,6 +70,8 @@ if SERVICE_TYPE == "null":
         SERVICE_TYPE = input("please choice the service: ")
         getService(SERVICE_TYPE)
         binary_answer = input("\nwant to do another service? [y/n] ")
+    
+    os.system('rm -rf project/json_files')
 
 else:
     getService(SERVICE_TYPE)

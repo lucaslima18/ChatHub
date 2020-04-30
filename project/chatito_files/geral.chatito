@@ -1,0 +1,1009 @@
+%[bolsas]('training': '100', 'testing': '70')
+    *[3.3%]~[como] ~[posso] ~[concorrer] ~[a_uma] ~[bolsa_estudos] ~[da] ~[fundacao_lemann]
+    *[3.3%]~[como] ~[concorro] ~[a_uma] ~[bolsa_estudos] ~[da] ~[fundacao_lemann]
+    *[3.3%]~[como] ~[concorrer] ~[bolsa_estudos]
+    *[3.3%]~[concorrer] ~[bolsa_estudos] ~[da] ~[fundacao_lemann]
+    *[3.3%]~[concorrer] ~[bolsa_estudos]
+    *[3.3%]~[quais] ~[tipos_de] ~[bolsa_estudos] ~[sao] ~[ofertadas] ~[da] ~[fundacao_lemann]
+    *[3.3%]~[tipos_de] ~[bolsa_estudos] ~[sao] ~[ofertadas] ~[da] ~[fundacao_lemann]
+    *[3.3%]~[quais] ~[tipos_de] ~[bolsa_estudos] ~[ofertadas] 
+    *[3.3%]~[bolsa_estudos] ~[ofertadas] ~[da] ~[fundacao_lemann]
+    *[3.3%]~[quais] ~[tipos_de] ~[bolsa_estudos] ~[da] ~[fundacao_lemann] ~[sao] ~[ofertadas]
+    *[3.3%]~[tipos_de] ~[bolsa_estudos] ~[ofertadas]
+    *[3.3%]~[quais] ~[bolsa_estudos] a ~[fundacao_lemann]
+    *[3.3%]~[bolsa_estudos] ~[da] ~[fundacao_lemann] ~[para] ~[universidade] @[nacionais]
+    *[3.3%]~[existem] ~[bolsa_estudos] ~[para] ~[universidade] @[nacionais]
+    *[3.3%]~[bolsa_estudos] ~[da] ~[fundacao_lemann] ~[para] ~[universidade]
+    *[3.3%]~[existem] ~[bolsa_estudos] ~[para] ~[universidade]
+    *[3.3%]~[bolsa_estudos] ~[para] ~[universidade] @[nacionais]
+    *[3.3%]~[bolsa_estudos] ~[para] ~[universidade]
+    *[3.3%]~[fundacao_lemann] ~[tem] parceria com ~[universidade] @[nacionais]
+    *[3.3%]~[fundacao_lemann] ~[tem] parceria com ~[quais] ~[universidade]
+    *[3.3%]~[quais] cursos em ~[universidade] a ~[fundacao_lemann] ~[tem] ~[bolsa_estudos]
+    *[3.3%]~[oque] ~[eh] ~[o] ~[Lemann Fellowship]
+    *[3.3%]~[oque] ~[eh] ~[Lemann Fellowship]
+    *[3.3%]~[Lemann Fellowship]
+    *[3.3%]~[como] ~[posso] ~[fazer_parte] do ~[ponte de talentos]
+    *[3.3%]~[como] ~[fazer_parte] do ~[ponte de talentos]
+    *[3.3%]~[fazer_parte] do ~[ponte de talentos]
+    *[3.3%]~[ponte de talentos]
+    *[7%]~[bolsa_estudos]
+
+%[causas]('training': '100', 'testing': '70')
+    *[2.5%]~[por_que] ~[fundacao_lemann] ~[apoia] ~[bncc]
+    *[2.5%]~[fundacao_lemann] ~[apoia] ~[bncc]
+    *[2.5%]~[apoia] ~[bncc]
+    *[2.5%]~[apoia] ~[bncc] ~[fundacao_lemann]
+    *[2.5%]~[apoia] ~[bncc] ~[fundacao_lemann] ~[por_que]
+    *[2.5%]~[fundacao_lemann] ~[financiou] ~[bncc]
+    *[2.5%]~[financiou] ~[bncc]
+    *[2.5%]~[financiou] ~[bncc] ~[fundacao_lemann]
+    *[2.5%]~[educacao_nacional] ~[problema] ~[urgencia] ~[bncc]
+    *[2.5%]~[educacao] ~[problema] ~[urgencia] ~[bncc]
+    *[2.5%]~[educacao_nacional] ~[problema] ~[importantes] ~[bncc]
+    *[2.5%]~[educacao] ~[problema] ~[importantes] ~[bncc]
+    *[2.5%]~[oque] ~[movimento_base]
+    *[2.5%]~[movimento_base] ~[oque]
+    *[2.5%]~[movimento_base]
+    *[2.5%]~[fundacao_lemann] ~[fundou] ~[movimento_base]
+    *[2.5%]~[fundou] ~[movimento_base] ~[fundacao_lemann]
+    *[2.5%]~[movimento_base] ~[fundacao_lemann] ~[fundou]
+    *[2.5%]~[fundou] ~[movimento_base]
+    *[2.5%]~[movimento_base] ~[fundou]
+    *[2.5%]~[fundacao_lemann] ~[fundou] ~[movimento_base]
+    *[2.5%]~[fundacao_lemann] ~[movimento_base] ~[fundou]
+    *[2.5%]~[movimento_base] ~[fundou] ~[fundacao_lemann]
+    *[2.5%]~[qual] ~[acoes] ~[projetos] ~[fundacao_lemann] ~[relacionado] ~[gestao_publica]
+    *[2.5%]~[qual] ~[acoes] ~[fundacao_lemann] ~[relacionado] ~[gestao_publica]
+    *[2.5%]~[qual] ~[projetos] ~[fundacao_lemann] ~[relacionado] ~[gestao_publica]
+    *[2.5%]~[qual] ~[acoes] ~[projetos] ~[relacionado] ~[gestao_publica]
+    *[2.5%]~[qual] ~[projetos] ~[relacionado] ~[gestao_publica]
+    *[2.5%]~[acoes] ~[projetos] ~[fundacao_lemann] ~[relacionado] ~[gestao_publica]
+    *[2.5%]~[acoes] ~[fundacao_lemann] ~[relacionado] ~[gestao_publica]
+    *[2.5%]~[projetos] ~[fundacao_lemann] ~[relacionado] ~[gestao_publica]
+    *[2.5%]~[acoes] ~[projetos] ~[relacionado] ~[gestao_publica]
+    *[2.5%]~[acoes] ~[relacionado] ~[gestao_publica]
+    *[2.5%]~[projetos] ~[relacionado] ~[gestao_publica]
+    *[7%]~[causas]
+
+%[institucional]('training': '100', 'testing': '70')
+    *[1%]~[missao] ~[Fundacao_lemann]
+    *[1%]~[qual] ~[missao] ~[Fundacao_lemann]
+    *[1%]~[Fundacao_lemann] ~[missao]
+    *[1%]~[Fundacao_lemann] ~[missao] ~[qual]
+    *[1%]~[oque] ~[fundacao_lemann] ~[faz]
+    *[1%]~[fundacao_lemann] ~[faz] ~[oque]
+    *[1%]~[como] ~[fundacao_lemann] ~[ganha] ~[dinheiro]
+    *[1%]~[fundacao_lemann] ~[ganha] ~[dinheiro] ~[como]
+    *[1%]~[como] ~[ganha] ~[dinheiro]
+    *[1%]~[ganha] ~[dinheiro] ~[como]
+    *[1%]~[fundacao_lemann] ~[apoio_politico] ~[eleger] ~[candidato]
+    *[1%]~[fundacao_lemann] ~[apoio_politico] ~[candidato]
+    *[1%]~[apoio_politico] ~[candidato] ~[fundacao_lemann]
+    *[1%]~[apoio_politico] ~[eleger] ~[candidato] ~[fundacao_lemann]
+    *[1%]~[Fundacao_lemann] ~[financiamento] ~[campanha_politica] Tabata Amaral Felipe Rigoni Renan Ferreirinha
+    *[1%]~[campanha_politica] Tabata Amaral Felipe Rigoni Renan Ferreirinha ~[financiamento] ~[fundacao_lemann]
+    *[1%]~[Fundacao_lemann] ~[financiamento] ~[campanha_politica] ~[politicos]
+    *[1%]~[campanha_politica] ~[politicos] ~[financiamento] ~[fundacao_lemann]
+    *[1%]~[financiamento] ~[campanha_politica] ~[politicos]
+    *[1%]~[financiamento] ~[campanha_politica] Tabata Amaral Felipe Rigoni Renan Ferreirinha
+    *[1%]~[posicionamento_politico]
+    *[1%]~[posicionamento_politico] ~[fundacao_lemann]
+    *[1%]~[fundacao_lemann] ~[posicionamento_politico]
+    *[1%]~[qual] ~[posicionamento_politico]
+    *[1%]~[qual] ~[posicionamento_politico] ~[fundacao_lemann]
+    *[1%]~[fundacao_lemann] ~[qual] ~[posicionamento_politico]
+    *[1%]~[principal] ~[projetos] ~[educacao]
+    *[1%]~[principal] ~[projetos] ~[educacao] ~[fundacao_lemann]
+    *[1%]~[principal] ~[projetos] ~[fundacao_lemann] ~[educacao]
+    *[1%]~[qual] ~[relacao] ~[fundacao_lemann] ~[nova_escola]
+    *[1%]~[qual] ~[relacao] ~[nova_escola] ~[fundacao_lemann]
+    *[1%]~[fundacao_lemann] ~[nova_escola] ~[qual] ~[relacao]
+    *[1%]~[nova_escola] ~[fundacao_lemann] ~[qual] ~[relacao]
+    *[1%]~[relacao] ~[fundacao_lemann] ~[nova_escola]
+    *[1%]~[relacao] ~[nova_escola] ~[fundacao_lemann]
+    *[1%]~[fundacao_lemann] ~[nova_escola] ~[relacao]
+    *[1%]~[nova_escola] ~[fundacao_lemann] ~[relacao]
+    *[1%]~[apoia] ~[fundacao_lemann] ~[oferece] ~[lideranças]
+    *[1%]~[fundacao_lemann] ~[oferece] ~[apoia] ~[lideranças]
+    *[1%]~[fundacao_lemann] ~[apoia] ~[lideranças]
+    *[1%]~[apoia] ~[fundacao_lemann] ~[lideranças]
+    *[1%]~[oque] ~[programa_formar] ~[como_fazer] ~[parte]
+    *[1%]~[programa_formar] ~[como_fazer] ~[parte]
+    *[1%]~[programa_formar] ~[parte]
+    *[1%]~[oque] ~[conectando_saberes] ~[como_fazer] ~[parte]
+    *[1%]~[conectando_saberes] ~[como_fazer] ~[parte]
+    *[1%]~[conectando_saberes] ~[parte]
+    *[1%]~[por_que] ~[lemann] ~[fundou] ~[fundacao_lemann]
+    *[1%]~[lemann] ~[fundou] ~[fundacao_lemann] ~[por_que]
+    *[1%]~[por_que] ~[fundou] ~[fundacao_lemann]
+    *[1%]~[fundou] ~[fundacao_lemann] ~[por_que]
+    *[1%]~[como_faco] ~[trabalho] ~[fundacao_lemann]
+    *[1%]~[trabalhao] ~[fundacao_lemann] ~[como_faco]
+    *[1%]~[como_faco] ~[trabalhao]
+    *[1%]~[trabalho] ~[como_faco]
+    *[1%]~[oportunidade] ~[trabalho] ~[fundacao_lemann]
+    *[1%]~[oportunidade] ~[trabalho]
+    *[1%]~[fundacao_lemann] ~[oportunidade] ~[trabalho_voluntario] ~[estagio] ~[summer]
+    *[1%]~[fundacao_lemann] ~[oportunidade] ~[trabalho_voluntario] ~[estagio]
+    *[1%]~[fundacao_lemann] ~[oportunidade] ~[trabalho_voluntario]
+    *[1%]~[fundacao_lemann] ~[oportunidade] ~[estagio] ~[summer]
+    *[1%]~[fundacao_lemann] ~[oportunidade] ~[trabalho_voluntario] ~[summer]
+    *[1%]~[oportunidade] ~[trabalho_voluntario] ~[estagio] ~[summer]
+    *[1%]~[oportunidade] ~[trabalho_voluntario] ~[estagio]
+    *[1%]~[oportunidade] ~[trabalho_voluntario]
+    *[1%]~[oportunidade] ~[estagio] ~[summer]
+    *[1%]~[oportunidade] ~[trabalho_voluntario] ~[summer]
+    *[1%]~[regioes] ~[fundacao_lemann] ~[atua]
+    *[1%]~[fundacao_lemann] ~[atua] ~[regioes]
+    *[1%]~[regioes] ~[atua]
+    *[1%]~[atua] ~[regioes]
+    *[1%]~[lemann] ~[privatizar] ~[educacao]
+    *[1%]~[privatizar] ~[educacao]
+    *[1%]~[privatizar] ~[educacao] ~[lemann]
+    *[1%]~[por_que] ~[lemann] ~[apoia] ~[educacao]
+    *[1%]~[por_que] ~[lemann] ~[apoia] ~[educacao] ~[interesses] ~[motivacoes]
+    *[1%]~[por_que] ~[lemann] ~[apoia] ~[educacao] ~[interesses]
+    *[1%]~[por_que] ~[lemann] ~[apoia] ~[educacao] ~[motivacoes]
+    *[1%]~[oque] ~[talentos_saude]
+    *[1%]~[talentos_saude] ~[oque]
+    *[1%]~[talentos_saude]
+    *[1%]~[oque] ~[talentos_educacao]
+    *[1%]~[talentos_educacao] ~[oque]
+    *[1%]~[talentos_educacao]
+    *[1%]~[oque] ~[terceiro_setor]
+    *[1%]~[terceiro_setor] ~[oque]
+    *[1%]~[terceiro_setor]
+    *[1%]~[fundacao_lemann] ~[apoia] ~[iniciativas] ~[renovacao_politica]
+    *[1%]~[apoia] ~[iniciativas] ~[renovacao_politica]
+    *[7%]~[institucioanl]
+
+%[parcerias_doacoes]('training': '100', 'testing': '70')
+    *[3%]~[quero] ~[parceria] ~[fundacao_lemann]
+    *[3%]~[como_fazer] ~[parceira] ~[fundacao_lemann]
+    *[3%]~[fundacao_lemann] ~[apoio] ~[projeto] ~[ong] ~[startup]
+    *[3%]~[fundacao_lemann] ~[apoio] ~[projeto]
+    *[3%]~[fundacao_lemann] ~[apoio] ~[ong]
+    *[3%]~[fundacao_lemann] ~[apoio] ~[startup]
+    *[3%]~[oque] ~[fundacao_lemann] ~[apoio]
+    *[3%]~[fundacao_lemann] ~[apoio]
+    *[3%]~[fundacao_lemann] ~[apoio] ~[oque]
+    *[3%]~[projeto] ~[apoio_financeiro]
+    *[3%]~[apoio_financeiro] ~[projeto]
+    *[3%]~[fundacao_lemann] ~[apoio_financeiro] ~[projeto]
+    *[3%]~[apoio_financeiro] ~[projeto] ~[fundacao_lemann]
+    *[3%]~[apoio_financeiro] ~[fundacao_lemann] ~[projeto]
+    *[3%]~[dificuldade] ~[financeiro] ~[apoio_financeiro]
+    *[3%]~[apoio_financeiro] ~[dificuldade] ~[financeiro]
+    *[3%]~[dificuldade] ~[financeiro] ~[fundacao_lemann] ~[apoio_financeiro]
+    *[3%]~[dificuldade] ~[financeiro] ~[apoio_financeiro] ~[fundacao_lemann]
+    *[3%]~[crowdfunding] ~[apoio_financeiro] ~[divulgacao]
+    *[3%]~[crowdfunding] ~[divulgacao]
+    *[3%]~[crowdfunding] ~[apoio_financeiro]
+    *[3%]~[crowdfunding] ~[apoio_financeiro] ~[divulgacao] ~[fundacao_lemann]
+    *[3%]~[crowdfunding] ~[divulgacao] ~[fundacao_lemann]
+    *[3%]~[crowdfunding] ~[apoio_financeiro] ~[fundacao_lemann]
+    *[3%]~[crowdfunding] ~[fundacao_lemann] ~[apoio_financeiro] ~[divulgacao]
+    *[3%]~[crowdfunding] ~[fundacao_lemann] ~[divulgacao] 
+    *[3%]~[crowdfunding] ~[fundacao_lemann] ~[apoio_financeiro]
+    *[7%]~[parcerias_doacoes]
+
+#bolsas
+#1.Como faço para concorrer/ganhar/receber uma bolsa de estudo da Fundação Lemann?
+~[posso]
+    eu posso
+    posso
+    eu poderia
+
+~[da]
+    pela
+    da
+    na
+
+~[a_uma]
+    por uma
+    a uma
+    a
+
+~[concorrer]
+    concorrer
+    me inscrerver
+    ganhar
+    conseguir
+    receber
+    obter
+
+~[concorro]
+    concorro
+    ganho
+    me inscrevo
+    consigo
+    recebo
+    obtenho
+
+~[bolsa_estudos]
+    bolsa
+    bolsas
+    bolsa de estudos
+    bolsas de estudo
+    subsídio
+    subsidio
+
+~[fundacao_lemann]
+    fundação lemann
+    fundação leman
+    fundação lema
+    fundacao lemann
+    fundacao leman
+    fundacao lema
+    FL
+
+#2.Em quais faculdades e cursos são oferecidas bolsas? Quais bolsas a Fundação Lemann oferece? Que tipo de bolsa de estudos a FL tem?
+~[quais]
+    quais
+    que
+    q
+
+~[tipos_de]
+    tipos de
+    que tipo de
+    qual tipo de
+
+~[ofertadas]
+    ofertada
+    ofertadas
+    oferece
+    disponivel
+    disponiveis
+    disponível
+    disponíveis
+
+~[sao]
+    sao
+    são
+
+#3.Existem bolsas de estudo para universidades brasileiras? A FL tem parceria com universidades brasileiras? Quais cursos em universidades brasileiras a FL apoia/tem bolsas? Existem bolsas para graduação?
+~[existem]
+    existem
+    tem
+    há
+    há
+
+~[universidade]
+    universidade
+    universidades
+    faculdade
+    faculdades
+    instituições de ensino superior
+    instituição de ensino superior
+    instituicao de ensino superior
+    instituicoes de ensino superior
+    graduacao
+    graduações
+    graduacoes
+    graduação
+
+@[nacionais]
+    nacionáis
+    nacionais
+    brasileiras
+    brs
+    br
+
+~[tem]
+    tem
+    possui
+    apoia
+    disponibiliza
+
+#5.O que é o programa Lemann Fellowship? 
+~[Lemann Fellowship]
+    programa Lemann Fellowship
+    Lemann Fellowship
+    iniciativa Lemann Fellowship
+
+~[eh]
+    é
+    seria
+
+~[o]
+    o
+    esse
+    esse tal de
+
+#6.Como fazer parte do Ponte de Talentos?
+~[fazer_parte]
+    faço parte
+    faco parte
+    fazer parte
+    participar
+
+~[ponte de talentos]
+    ponte de talentos
+    programa ponte de talentos
+    iniciativa ponte de talentos
+
+#causas
+~[causas]
+    causa
+    causas
+
+#apoio_bncc: Por que a Fundação Lemann apoia a Base Nacional Comum Curricular (BNCC)?
+~[bncc]
+    bncc
+    base Curricular comum nacional
+    base nacional comum Curricular
+    base nacional comum
+    base curricular nacional comum
+    base curricular nacional
+    BNCC
+
+~[apoia]
+    apoia
+    da apoio
+    presta apoio
+    apoio
+    ajuda
+    favorece
+    secunda
+    protege
+    apadrinha
+    apadroa
+    colabora
+    colaborou
+
+#financiou_bncc: A Fundação Lemann financiou a BNCC?
+~[financiou]
+    pagou
+    financiou
+    financiamento
+    financia
+    funanceiramente
+    financiaram
+    financiam
+    ~[apoia] financeiro
+    ~[apoia] financeiramente
+
+#educacao_brasileira: A educação brasileira não tem problemas mais urgentes que a BNCC?
+~[educacao_nacional]
+    ~[educacao] ~[nacional]
+
+~[educacao]
+    educacao
+    educação
+    ensino
+
+~[nacional]
+    brasileira
+    brasileiro
+    nacional
+    nosso país
+    no brasil
+
+~[problema]
+    problema
+    problemas
+    dificuldade
+    dificuldades
+    necessidade
+    necessidades
+
+~[urgencia]
+    urgencia
+    urgência
+    emergência
+    emergencia
+    emergente
+    urgente
+
+~[importantes]
+    importantes
+    importante
+    importancia
+
+#movimento_base: O que é o Movimento pela Base?
+~[movimento_base]
+    movimento base
+    movimento pela base
+    movimento pela base nacional comum
+    movimento pela ~[bncc]
+
+#fundou_movimento_base: A Fundação Lemann fundou o Movimento pela Base?
+~[fundou]
+    fundou
+    criou
+    criação
+    criacao
+    fundação
+    fundacao
+
+#interesse_setor_publico: Qual o interesse da Fundação Lemann em gestão de pessoas no setor público?
+~[interesse]
+    interesse
+    interessa
+
+~[gestao]
+    gestao
+    gerir
+    gestão
+    gerindo
+    logistica
+    logística
+    gerencia
+    gerência
+    gerenciar
+    gerênciar
+
+~[pessoas]
+    pessoas
+    jente
+    gente
+    seres humanos
+    pessoa
+    pessoal
+
+~[setor_publico]
+    ~[setor] ~[publico]
+
+~[setor]
+    setor
+
+~[publico]
+    publico
+    público
+    pública
+
+#relacao_gestao_publica: Quais as ações/projetos da FL relacionados à gestão pública
+~[acoes]
+    ação
+    acao
+    ações
+    acoes
+
+~[relacionado]
+    relacionado
+    relacionada
+    relacionado
+    relacionada
+    relacionamento
+
+~[gestao_publica]
+    ~[gestao] ~[publico]
+
+#institucioanl
+~[institucioanl]
+    institucioanl
+    instituição
+    instituicao
+
+#1. Qual a missão da Fundação Lemann?
+~[missao]
+    missão
+    missao
+
+#2. O que a Fundação Lemann faz na prática?
+
+#3. Como a Fundação Lemann ganha dinheiro?
+~[ganha]
+    ganha
+    obtem
+    detem
+
+~[como]
+    de que maneira
+    como
+    como que
+
+~[dinheiro]
+    dinheiro
+    renda
+    sustento
+    captal
+    capital
+    money
+    financiamento
+    financeiro
+    finanças
+    financas
+
+#4. A Fundação Lemann ajudou a eleger algum candidato?
+~[apoio_politico]
+    ~[apoia] ~[politico]
+
+~[eleger]
+    eleger
+    eleição
+    eleicao
+    eleitural
+
+~[candidato]
+    candidato
+    prefeito
+    governador
+    presidente
+    prefeita
+    governadora
+    presidenta
+    candidata
+
+~[político]
+    político
+    política
+    politico
+    politica
+    políticos
+    políticas
+
+#5. A Fundação Lemann financiou a campanha da Tabata Amaral/Felipe Rigoni, Renan Ferreirinha, etc. ?
+~[financiamento]
+    financiou
+    pagou
+    custeou
+    financiamento
+    financia
+    financiando
+    custeia
+    custeiam
+    pagam
+    pagando
+
+~[campanha_politica]
+    ~[campanha] ~[politico]
+
+~[campanha]
+    campanha
+    campanhas
+
+~[politicos]
+    Tabata Amaral
+    Felipe Rigoni
+    Felipe Rigoni
+    Renan Ferreirinha
+
+#6. Qual o posicionamento político da Fundação Lemann?
+~[posicionamento_politico]
+    ~[posicionamento] ~[politico]
+
+~[posicionamento]
+    posicionamento
+    opinião
+    opiniao
+    posiciona
+
+
+#7. Quais os principais projetos em educação?
+~[principal]
+    principal
+    principais
+    fundamentais
+    mais importantes
+
+#8. Qual a relação da Fundação Lemann com a Nova Escola?
+~[relacao]
+    relacao
+    relação
+    relacionamento
+    ligacao
+    ligação
+    associacao
+    associação
+    vínculo
+    vinculo
+
+~[nova escola]
+    nova escola
+    nova-escola
+
+#9. Quais apoios a Fundação Lemann oferece a lideranças?
+~[oferece]
+    oferece
+    ofereçe
+    disponibiliza
+    cede
+    apresenta
+    concede
+
+#10. O que é o programa Formar e como fazer parte?
+~[programa_formar]
+    programa formar
+
+~[parte]
+    parte
+    entrar
+    inscrever
+    inscrição
+    inscricao
+    ganhar
+
+#11. O que é a Conectando Saberes e como fazer parte?
+~[conectando_saberes]
+    conectando saberes
+    conectando saber
+
+#12. Por que Jorge Paulo Lemann criou a Fundação Lemann?
+~[lemann]
+    Jorge Paulo Lemann
+    Paulo Lemann
+    Jorge Lemann
+    sr lemann
+    dr lemann
+    sr Jorge Paulo Leman
+    dr Jorge Paulo Lemann
+
+#13. Como trabalhar na Fundação Lemann?
+~[trabalho]
+    trabalhar
+    trabalho
+    emprego
+    empregado
+    trampo
+    trampar
+
+~[oportunidade]
+    oportunidade
+    vaga
+
+#14. A Fundação Lemann tem oportunidade para trabalho voluntário/estágio/summer?
+~[trabalho_voluntario]
+    ~[trabalho] voluntário
+    ~[trabalho] voluntario
+
+~[estagio]
+    estagio
+    estágio
+    estagiário
+    estagiario
+
+~[summer]
+    summer
+    ~[trabalho] temporário
+    ~[trabalho] temporario
+    ~[trabalho] de verao
+    ~[trabalho] de verão
+
+
+#15. Em que regiões a Fundação Lemann atua?
+~[regioes]
+    regioes
+    regiões
+    lugares
+    lugar
+    local
+    locais
+
+~[atua]
+    atua
+    age
+    opera
+    efetua
+    exerce
+
+#16. Jorge Paulo quer privatizar a educação?
+~[privatizar]
+    privatizar
+    tornar privada
+    tornar paga
+    tornar particular
+    privativação
+    privativacao
+
+#17. Por que Jorge Paulo Lemann apoia educação? Quais os interesses e motivações?
+~[interesses]
+    interesses
+    interesse
+
+~[motivacoes]
+    motiva
+    motivacoes
+    motivações
+    motivando
+
+#18. O que é o Talentos da Saúde?
+~[talentos]
+    talentos
+    talento
+
+~[saude]
+    saude
+    saúde
+
+#19. O que é Talentos da Educação?
+~[talentos_educacao]
+    ~[talentos] ~[educacao]
+
+#20. O que é o programa Terceiro Setor Transforma?
+~[terceiro_setor]
+    terceiro setor transforma
+    setor transforma
+    3 setor transforma
+    3° setor transforma
+
+#21. A FL apoia iniciativas de renovação política como o RenovaBR, Acredito, etc? 
+~[renovacao_politica]
+    RenovaBR
+    renovabr
+    acredito
+    RenovaBR Acredito
+
+~[iniciativas]
+    iniciativas renovação política
+    renovação política
+    iniciativas renovação politica
+    renovação politica
+
+#parcerias_doacoes
+~[parcerias_doacoes]
+    parcerias doacoes
+    parcerias e doacoes
+    parcerias
+    doacoes
+    parcerias doações
+    parcerias e doações
+    doações
+
+#Quero ser parceiro da Fundação Lemann/Como ser parceiro da Fundação Lemann/A Fundação Lemann pode apoiar meu projeto/ONG/startup?
+
+~[parceria]
+    parceria
+    parceira
+    parceiro
+    ser parceiro
+    ser parceira
+    tornar parceiro
+    tornar parceira
+
+~[projetos]
+    projetos
+    projeto
+
+~[ong]
+    ONG
+    ong
+    organização
+    organizacao
+
+~[startup]
+    startup
+    microempresa
+    micro-empresa
+    emprezinha
+    negócio
+    negocio
+    empresa
+
+~[apoio]
+    apoia
+    da apoio
+    presta apoio
+    apoio
+    ajuda
+    favorece
+    secunda
+    protege
+    apadrinha
+    apadroa
+    colabora
+    colaborou
+    ajuda
+
+#O que e quem a Fundação Lemann apoia?
+
+#Tenho um projeto e preciso de apoio financeiro.
+~[apoio_financeiro]
+    ~[apoio] ~[fianceiro]
+
+~[fianceiro]
+    dinheiro
+    com dinheiro
+    monetário
+    monetario
+    captal
+    capital
+    grana
+    financeiro
+    finanças
+    financiamento
+    financiar
+    financas
+
+#Estou passando por dificuldades e preciso de ajuda financeira.
+~[dificuldade]
+    dificuldade
+    dificil
+    difícil
+    barra pesada
+    problema
+    problemas
+    adverso
+    adversidade
+    tribulação
+    tribulacao
+    perrengue
+
+#Estou fazendo um crowdfunding e preciso de ajuda financeira e divulgação.
+~[divulgacao]
+    duvulgação
+    divulgacao
+    divulgar
+    marketing
+    propaganda
+
+~[crowdfunding]
+    crowdfunding
+    financiamento coletivo
+    vaquinha
+
+################################################################################################
+##################################### COMMON TERMS #############################################
+################################################################################################
+~[por_que]
+    por que
+    por qual motivo
+    por qual razão
+    por qual razao
+    pq
+    porque
+    por que motivo
+    por que razão
+    por que razao
+
+~[quando]
+    em que momento
+    em que ocasião
+    a partir de quando
+    quando 
+    em que situação
+
+~[deve_ser]
+    é
+    deve ser
+    é preciso
+
+~[sobre]
+    sobre 
+    referente a
+    pertinente a
+
+~[falta]
+    ausencia
+    falta
+    sem
+    ausência
+
+~[qual]
+    qual
+    quale
+    qual é
+    qual seria
+
+~[pode]
+    pode 
+    tem Como
+    é possível
+    poderia
+    pode ser
+
+~[entrada]
+    entrada
+    entrou
+    entra
+
+~[tenho]
+    tenho
+    possuo
+    disponho
+
+~[como_fazer]
+    ~[como_fazer2]
+    ~[como_faco]
+    ~[fazer]
+    ~[solicitar]
+    ~[onde] ~[fazer]
+    ~[onde] ~[faço] ~[realizar?]
+    ~[onde] ~[faço] ~[solicitar?]
+    etapas
+    quais os passos
+    quais as etapas
+
+~[como_fazer2]
+    como ~[fazer] ~[para_realizar?]
+    como ~[fazer] ~[para_solicitar?]
+
+~[como_faco]
+    como ~[faço] ~[realizar?]
+    como ~[faço] ~[solicitar?]
+
+~[para_realizar]
+    ~[para] ~[realizar]
+
+~[para_solicitar]
+    ~[para] ~[solicitar]
+
+~[realizar]
+    realizar
+    fazer
+
+~[solicitar]
+    solicitar
+    pedir
+
+~[para]
+    para
+    pra
+
+~[fazer]
+    realizar
+    fazer
+    posso fazer
+
+~[faço]
+    faço ~[para?]
+    realizo
+    posso
+    consigo
+
+~[oque]
+    oq
+    oque
+    o que
+    qq
+    o quê
+    oq é
+    oque é
+    o que é
+    qq é
+    o quê é
+
+~[onde]
+    onde
+    qual local
+    qual lugar
+    que lugar
+    que local
+
+~[quanto]
+    quanto
+    qt
+
+~[custa]
+    custa
+    preço
+    valor
+    precisa pagar
+    preciso pagar
+
+~[requisito]
+    preciso
+    necessário
+    requisito
+    pedido
+
+~[diz]
+    diz
+    me diz
+    me conta 
+    me explica
+
+~[quem_pode]
+    ~[quem] ~[pode]
+    eu posso
+    ~[quem] ~[faz]
+
+~[quem]
+    quem
+    qm
+    qual pessoa
+
+~[faz]
+    faz
+    solicita
+    realiza
+    emiti
+    emite
+
+~[quero]
+    quero
+    querendo
+    desejo
+    desejando
+    adoraria

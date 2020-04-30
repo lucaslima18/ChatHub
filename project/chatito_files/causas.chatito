@@ -1,0 +1,375 @@
+%[apoio_bncc]('training': '100', 'testing': '17')
+    *[33%]~[por_que] a ~[fundacao_lemann] ~[apoia] a ~[bncc]
+    *[33%]a ~[fundacao_lemann] ~[apoia] a ~[bncc]
+    *[33%]~[apoia] a ~[bncc]
+
+%[financiou_bncc]('training': '100', 'testing': '17')
+    *[50%]a ~[fundacao_lemann] ~[financiou] a ~[bncc]
+    *[50%]~[financiou] a ~[bncc]
+
+%[educacao_brasileira]('training': '100', 'testing': '17')
+    *[33%]~[educacao_nacional] não é um ~[problema] mais ~[urgencia] que a ~[bncc]
+    *[33%]~[educacao] não é um ~[problema] mais ~[urgencia] que a ~[bncc]
+    *[33%]~[educacao_nacional] não é um ~[problema] mais ~[importantes] que a ~[bncc]
+
+%[movimento_base]('training': '100', 'testing': '17')
+    *[50%]~[oque] é o ~[movimento_base]
+    *[50%]~[movimento_base]
+
+%[fundou_movimento_base]('training': '100', 'testing': '17')
+    *[33%]a ~[fundacao_lemann] ~[fundou] o ~[movimento_base]
+    *[33%]quem ~[fundou] o ~[movimento_base] foi a ~[fundacao_lemann]
+    *[33%]~[movimento_base] foi ~[fundou] pela ~[fundacao_lemann]
+
+%[interesse_setor_publico]('training': '100', 'testing': '17')
+    *[25%]qual o ~[interesse] no ~[setor_publico]
+    *[25%]qual o ~[interesse] na ~[gestao_pessoas] do ~[setor_publico]
+    *[25%]qual o ~[interesse] da ~[fundacao_lemann] no ~[setor_publico]
+    *[25%]qual o ~[interesse] da ~[fundacao_lemann] na ~[gestao_pessoas] do ~[setor_publico]
+
+%[relacao_gestao_publica]('training': '100', 'testing': '17')
+    *[8%]~[qual] ~[acoes] ~[projetos] ~[fundacao_lemann] ~[relacionado] ~[gestao_publica]
+    *[8%]~[qual] ~[acoes] ~[fundacao_lemann] ~[relacionado] ~[gestao_publica]
+    *[8%]~[qual] ~[projetos] ~[fundacao_lemann] ~[relacionado] ~[gestao_publica]
+    *[8%]~[qual] ~[acoes] ~[projetos] ~[relacionado] ~[gestao_publica]
+    *[8%]~[qual] ~[acoes] ~[relacionado] ~[gestao_publica]
+    *[8%]~[qual] ~[projetos] ~[relacionado] ~[gestao_publica]
+    *[8%]~[acoes] ~[projetos] ~[fundacao_lemann] ~[relacionado] ~[gestao_publica]
+    *[8%]~[acoes] ~[fundacao_lemann] ~[relacionado] ~[gestao_publica]
+    *[8%]~[projetos] ~[fundacao_lemann] ~[relacionado] ~[gestao_publica]
+    *[8%]~[acoes] ~[projetos] ~[relacionado] ~[gestao_publica]
+    *[8%]~[acoes] ~[relacionado] ~[gestao_publica]
+    *[8%]~[projetos] ~[relacionado] ~[gestao_publica]
+
+#apoio_bncc: Por que a Fundação Lemann apoia a Base Nacional Comum Curricular (BNCC)?
+~[bncc]
+    bncc
+    base Curricular comum nacional
+    base nacional comum Curricular
+    base nacional comum
+    base curricular nacional comum
+    base curricular nacional
+    BNCC
+
+~[apoia]
+    apoia
+    da apoio
+    presta apoio
+    apoio
+    ajuda
+    favorece
+    secunda
+    protege
+    apadrinha
+    apadroa
+    colabora
+    colaborou
+
+~[fundacao_lemann]
+    fundação lemann
+    fundação leman
+    fundação lema
+    fundacao lemann
+    fundacao leman
+    fundacao lema
+    FL
+
+#financiou_bncc: A Fundação Lemann financiou a BNCC?
+~[financiou]
+    pagou
+    financiou
+    financiamento
+    financia
+    funanceiramente
+    financiaram
+    financiam
+    ~[apoia] financeiro
+    ~[apoia] financeiramente
+
+#educacao_brasileira: A educação brasileira não tem problemas mais urgentes que a BNCC?
+~[educacao_nacional]
+    ~[educacao] ~[nacional]
+
+~[educacao]
+    educacao
+    educação
+    ensino
+
+~[nacional]
+    brasileira
+    brasileiro
+    nacional
+    nosso país
+    no brasil
+
+~[problema]
+    problema
+    problemas
+    dificuldade
+    dificuldades
+    necessidade
+    necessidades
+
+~[urgencia]
+    urgencia
+    urgência
+    emergência
+    emergencia
+    emergente
+    urgente
+
+~[importantes]
+    importantes
+    importante
+    importancia
+
+#movimento_base: O que é o Movimento pela Base?
+~[movimento_base]
+    movimento base
+    movimento pela base
+    movimento pela base nacional comum
+    movimento pela ~[bncc]
+
+#fundou_movimento_base: A Fundação Lemann fundou o Movimento pela Base?
+~[fundou]
+    fundou
+    criou
+    criação
+    criacao
+    fundação
+    fundacao
+
+#interesse_setor_publico: Qual o interesse da Fundação Lemann em gestão de pessoas no setor público?
+~[interesse]
+    interesse
+    interessa
+
+~[gestao_pessoas]
+    ~[gestao] ~[pessoas]
+
+~[gestao]
+    gestao
+    gerir
+    gestão
+    gerindo
+    logistica
+    logística
+    gerencia
+    gerência
+    gerenciar
+    gerênciar
+
+~[pessoas]
+    pessoas
+    jente
+    gente
+    seres humanos
+    pessoa
+    pessoal
+
+~[setor_publico]
+    ~[setor] ~[publico]
+
+~[setor]
+    setor
+
+~[publico]
+    publico
+    público
+    pública
+
+#relacao_gestao_publica: Quais as ações/projetos da FL relacionados à gestão pública?
+~[projetos]
+    projetos
+    projeto
+
+~[acoes]
+    ação
+    acao
+    ações
+    acoes
+
+~[relacionado]
+    relacionado
+    relacionada
+    relacionado
+    relacionada
+    relacionamento
+
+~[gestao_publica]
+    ~[gestao] ~[publico]
+
+################################################################################################
+##################################### COMMON TERMS #############################################
+################################################################################################
+~[por_que]
+    por que
+    por qual motivo
+    por qual razão
+    por qual razao
+    pq
+    porque
+    por que motivo
+    por que razão
+    por que razao
+
+~[quando]
+    em que momento
+    em que ocasião
+    a partir de quando
+    quando 
+    em que situação
+
+~[deve_ser]
+    é
+    deve ser
+    é preciso
+
+~[da]
+    de
+    da
+    do
+    das
+    dos
+
+~[sobre]
+    sobre 
+    referente a
+    pertinente a
+
+~[falta]
+    ausencia
+    falta
+    sem
+    ausência
+
+~[qual]
+    qual
+    quale
+    qual é
+    qual seria
+
+~[pode]
+    pode 
+    tem Como
+    é possível
+    poderia
+    pode ser
+
+~[entrada]
+    entrada
+    entrou
+    entra
+
+~[tenho]
+    tenho
+    possuo
+    disponho
+
+~[como_fazer]
+    ~[como_fazer2]
+    ~[como_faco]
+    ~[fazer]
+    ~[solicitar]
+    ~[onde] ~[fazer]
+    ~[onde] ~[faço] ~[realizar?]
+    ~[onde] ~[faço] ~[solicitar?]
+    etapas
+    quais os passos
+    quais as etapas
+
+~[como_fazer2]
+    como ~[fazer] ~[para_realizar?]
+    como ~[fazer] ~[para_solicitar?]
+
+~[como_faco]
+    como ~[faço] ~[realizar?]
+    como ~[faço] ~[solicitar?]
+
+~[para_realizar]
+    ~[para] ~[realizar]
+
+~[para_solicitar]
+    ~[para] ~[solicitar]
+
+~[realizar]
+    realizar
+    fazer
+
+~[solicitar]
+    solicitar
+    pedir
+
+~[para]
+    para
+    pra
+
+~[fazer]
+    realizar
+    fazer
+    posso fazer
+
+~[faço]
+    faço ~[para?]
+    realizo
+    posso
+    consigo
+
+~[oque]
+    oq
+    oque
+    o que
+    qq
+    o quê
+    oq é
+    oque é
+    o que é
+    qq é
+    o quê é
+
+~[onde]
+    onde
+    qual local
+    qual lugar
+    que lugar
+    que local
+
+~[quanto]
+    quanto
+    qt
+
+~[custa]
+    custa
+    preço
+    valor
+    precisa pagar
+    preciso pagar
+
+~[requisito]
+    preciso
+    necessário
+    requisito
+    pedido
+
+~[diz]
+    diz
+    me diz
+    me conta 
+    me explica
+
+~[quem_pode]
+    ~[quem] ~[pode]
+    eu posso
+    ~[quem] ~[faz]
+
+~[quem]
+    quem
+    qm
+    qual pessoa
+
+~[faz]
+    faz
+    solicita
+    realiza
+    emiti
+    emite

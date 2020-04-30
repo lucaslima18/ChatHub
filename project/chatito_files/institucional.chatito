@@ -1,133 +1,133 @@
-%[missao]('training': '50')
-    ~[missao] ~[Fundacao_lemann]
-    ~[qual] ~[missao] ~[Fundacao_lemann]
-    ~[Fundacao_lemann] ~[missao]
-    ~[Fundacao_lemann] ~[missao] ~[qual]
+%[missao]('training': '100', 'testing': '10')
+    *[25%]~[missao] ~[Fundacao_lemann]
+    *[25%]~[qual] ~[missao] ~[Fundacao_lemann]
+    *[25%]~[Fundacao_lemann] ~[missao]
+    *[25%]~[Fundacao_lemann] ~[missao] ~[qual]
 
-%[atividades]('training': '50')
-    ~[oque] ~[fundacao_lemann] ~[faz]
-    ~[fundacao_lemann] ~[faz] ~[oque]
+%[atividades]('training': '100', 'testing': '10')
+    *[50%]~[oque] ~[fundacao_lemann] ~[faz]
+    *[50%]~[fundacao_lemann] ~[faz] ~[oque]
 
-%[ganha_dineiro]('training': '50')
-    ~[como] ~[fundacao_lemann] ~[ganha] ~[dinheiro]
-    ~[fundacao_lemann] ~[ganha] ~[dinheiro] ~[como]
-    ~[como] ~[ganha] ~[dinheiro]
-    ~[ganha] ~[dinheiro] ~[como]
+%[ganha_dineiro]('training': '100', 'testing': '10')
+    *[25%]~[como] ~[fundacao_lemann] ~[ganha] ~[dinheiro]
+    *[25%]~[fundacao_lemann] ~[ganha] ~[dinheiro] ~[como]
+    *[25%]~[como] ~[ganha] ~[dinheiro]
+    *[25%]~[ganha] ~[dinheiro] ~[como]
 
-%[apoio_politico]('training': '50')
-    ~[fundacao_lemann] ~[apoio_politico] ~[eleger] ~[candidato]
-    ~[fundacao_lemann] ~[apoio_politico] ~[candidato]
-    ~[apoio_politico] ~[candidato] ~[fundacao_lemann]
-    ~[apoio_politico] ~[eleger] ~[candidato] ~[fundacao_lemann]
+%[apoio_politico]('training': '100', 'testing': '10')
+    *[25%]~[fundacao_lemann] ~[apoio_politico] ~[eleger] ~[candidato]
+    *[25%]~[fundacao_lemann] ~[apoio_politico] ~[candidato]
+    *[25%]~[apoio_politico] ~[candidato] ~[fundacao_lemann]
+    *[25%]~[apoio_politico] ~[eleger] ~[candidato] ~[fundacao_lemann]
 
-%[financiamento_campanha]('training': '50')
-    ~[Fundacao_lemann] ~[financiamento] ~[campanha_politica] Tabata Amaral Felipe Rigoni Renan Ferreirinha
-    ~[campanha_politica] Tabata Amaral Felipe Rigoni Renan Ferreirinha ~[financiamento] ~[fundacao_lemann]
-    ~[Fundacao_lemann] ~[financiamento] ~[campanha_politica] ~[politicos]
-    ~[campanha_politica] ~[politicos] ~[financiamento] ~[fundacao_lemann]
-    ~[financiamento] ~[campanha_politica] ~[politicos]
-    ~[financiamento] ~[campanha_politica] Tabata Amaral Felipe Rigoni Renan Ferreirinha
+%[financiamento_campanha]('training': '100', 'testing': '10')
+    *[16%]~[Fundacao_lemann] ~[financiamento] ~[campanha_politica] Tabata Amaral Felipe Rigoni Renan Ferreirinha
+    *[16%]~[campanha_politica] Tabata Amaral Felipe Rigoni Renan Ferreirinha ~[financiamento] ~[fundacao_lemann]
+    *[16%]~[Fundacao_lemann] ~[financiamento] ~[campanha_politica] ~[politicos]
+    *[16%]~[campanha_politica] ~[politicos] ~[financiamento] ~[fundacao_lemann]
+    *[16%]~[financiamento] ~[campanha_politica] ~[politicos]
+    *[16%]~[financiamento] ~[campanha_politica] Tabata Amaral Felipe Rigoni Renan Ferreirinha
 
-%[posicionamento_politico]('training': '50')
-    ~[posicionamento_politico]
-    ~[posicionamento_politico] ~[fundacao_lemann]
-    ~[fundacao_lemann] ~[posicionamento_politico]
-    ~[qual] ~[posicionamento_politico]
-    ~[qual] ~[posicionamento_politico] ~[fundacao_lemann]
-    ~[fundacao_lemann] ~[qual] ~[posicionamento_politico]
+%[posicionamento_politico]('training': '100', 'testing': '10')
+    *[16%]~[posicionamento_politico]
+    *[16%]~[posicionamento_politico] ~[fundacao_lemann]
+    *[16%]~[fundacao_lemann] ~[posicionamento_politico]
+    *[16%]~[qual] ~[posicionamento_politico]
+    *[16%]~[qual] ~[posicionamento_politico] ~[fundacao_lemann]
+    *[16%]~[fundacao_lemann] ~[qual] ~[posicionamento_politico]
 
-%[projetos_educacao]('training': '50')
-    ~[principal] ~[projetos] ~[educacao]
-    ~[principal] ~[projetos] ~[educacao] ~[fundacao_lemann]
-    ~[principal] ~[projetos] ~[fundacao_lemann] ~[educacao]
+%[projetos_educacao]('training': '100', 'testing': '10')
+    *[33%]~[principal] ~[projetos] ~[educacao]
+    *[33%]~[principal] ~[projetos] ~[educacao] ~[fundacao_lemann]
+    *[33%]~[principal] ~[projetos] ~[fundacao_lemann] ~[educacao]
 
-%[nova_escola]('training': '50')
-    ~[qual] ~[relacao] ~[fundacao_lemann] ~[nova_escola]
-    ~[qual] ~[relacao] ~[nova_escola] ~[fundacao_lemann]
-    ~[fundacao_lemann] ~[nova_escola] ~[qual] ~[relacao]
-    ~[nova_escola] ~[fundacao_lemann] ~[qual] ~[relacao]
-    ~[relacao] ~[fundacao_lemann] ~[nova_escola]
-    ~[relacao] ~[nova_escola] ~[fundacao_lemann] 
-    ~[fundacao_lemann] ~[nova_escola] ~[relacao]
-    ~[nova_escola] ~[fundacao_lemann] ~[relacao]
+%[nova_escola]('training': '100', 'testing': '10')
+    *[12%]~[qual] ~[relacao] ~[fundacao_lemann] ~[nova_escola]
+    *[12%]~[qual] ~[relacao] ~[nova_escola] ~[fundacao_lemann]
+    *[12%]~[fundacao_lemann] ~[nova_escola] ~[qual] ~[relacao]
+    *[12%]~[nova_escola] ~[fundacao_lemann] ~[qual] ~[relacao]
+    *[12%]~[relacao] ~[fundacao_lemann] ~[nova_escola]
+    *[12%]~[relacao] ~[nova_escola] ~[fundacao_lemann] 
+    *[12%]~[fundacao_lemann] ~[nova_escola] ~[relacao]
+    *[12%]~[nova_escola] ~[fundacao_lemann] ~[relacao]
 
-%[apoio_liderancas]('training': '50')
-    ~[apoia] ~[fundacao_lemann] ~[oferece] ~[lideranças]
-    ~[fundacao_lemann] ~[oferece] ~[apoia] ~[lideranças]
-    ~[fundacao_lemann] ~[apoia] ~[lideranças]
-    ~[apoia] ~[fundacao_lemann] ~[lideranças]
+%[apoio_liderancas]('training': '100', 'testing': '10')
+    *[25%]~[apoia] ~[fundacao_lemann] ~[oferece] ~[lideranças]
+    *[25%]~[fundacao_lemann] ~[oferece] ~[apoia] ~[lideranças]
+    *[25%]~[fundacao_lemann] ~[apoia] ~[lideranças]
+    *[25%]~[apoia] ~[fundacao_lemann] ~[lideranças]
 
-%[programa_formar]('training': '50')
-    ~[oque] ~[programa_formar] ~[como_fazer] ~[parte]
-    ~[programa_formar] ~[como_fazer] ~[parte]
-    ~[programa_formar] ~[parte]
+%[programa_formar]('training': '100', 'testing': '10')
+    *[33%]~[oque] ~[programa_formar] ~[como_fazer] ~[parte]
+    *[33%]~[programa_formar] ~[como_fazer] ~[parte]
+    *[33%]~[programa_formar] ~[parte]
 
-%[conectando_saberes]('training': '50')
-    ~[oque] ~[conectando_saberes] ~[como_fazer] ~[parte]
-    ~[conectando_saberes] ~[como_fazer] ~[parte]
-    ~[conectando_saberes] ~[parte]
+%[conectando_saberes]('training': '100', 'testing': '10')
+    *[33%]~[oque] ~[conectando_saberes] ~[como_fazer] ~[parte]
+    *[33%]~[conectando_saberes] ~[como_fazer] ~[parte]
+    *[33%]~[conectando_saberes] ~[parte]
 
-%[ciracao]('training': '50')
-    ~[por_que] ~[lemann] ~[fundou] ~[fundacao_lemann]
-    ~[lemann] ~[fundou] ~[fundacao_lemann] ~[por_que]
-    ~[por_que] ~[fundou] ~[fundacao_lemann]
-    ~[fundou] ~[fundacao_lemann] ~[por_que]
+%[ciracao]('training': '100', 'testing': '10')
+    *[25%]~[por_que] ~[lemann] ~[fundou] ~[fundacao_lemann]
+    *[25%]~[lemann] ~[fundou] ~[fundacao_lemann] ~[por_que]
+    *[25%]~[por_que] ~[fundou] ~[fundacao_lemann]
+    *[25%]~[fundou] ~[fundacao_lemann] ~[por_que]
 
-%[oportunidade_trabalho]('training': '50')
-    ~[como_faco] ~[trabalho] ~[fundacao_lemann]
-    ~[trabalhao] ~[fundacao_lemann] ~[como_faco]
-    ~[como_faco] ~[trabalhao]
-    ~[trabalho] ~[como_faco]
-    ~[oportunidade] ~[trabalho] ~[fundacao_lemann]
-    ~[oportunidade] ~[trabalho]
+%[oportunidade_trabalho]('training': '100', 'testing': '10')
+    *[16%]~[como_faco] ~[trabalho] ~[fundacao_lemann]
+    *[16%]~[trabalhao] ~[fundacao_lemann] ~[como_faco]
+    *[16%]~[como_faco] ~[trabalhao]
+    *[16%]~[trabalho] ~[como_faco]
+    *[16%]~[oportunidade] ~[trabalho] ~[fundacao_lemann]
+    *[16%]~[oportunidade] ~[trabalho]
 
-%[trabalho_voluntario]('training': '50')
-    ~[fundacao_lemann] ~[oportunidade] ~[trabalho_voluntario] ~[estagio] ~[summer]
-    ~[fundacao_lemann] ~[oportunidade] ~[trabalho_voluntario] ~[estagio]
-    ~[fundacao_lemann] ~[oportunidade] ~[trabalho_voluntario]
-    ~[fundacao_lemann] ~[oportunidade] ~[estagio] ~[summer]
-    ~[fundacao_lemann] ~[oportunidade] ~[trabalho_voluntario] ~[summer]
-    ~[oportunidade] ~[trabalho_voluntario] ~[estagio] ~[summer]
-    ~[oportunidade] ~[trabalho_voluntario] ~[estagio]
-    ~[oportunidade] ~[trabalho_voluntario]
-    ~[oportunidade] ~[estagio] ~[summer]
-    ~[oportunidade] ~[trabalho_voluntario] ~[summer]
+%[trabalho_voluntario]('training': '100', 'testing': '10')
+    *[10%]~[fundacao_lemann] ~[oportunidade] ~[trabalho_voluntario] ~[estagio] ~[summer]
+    *[10%]~[fundacao_lemann] ~[oportunidade] ~[trabalho_voluntario] ~[estagio]
+    *[10%]~[fundacao_lemann] ~[oportunidade] ~[trabalho_voluntario]
+    *[10%]~[fundacao_lemann] ~[oportunidade] ~[estagio] ~[summer]
+    *[10%]~[fundacao_lemann] ~[oportunidade] ~[trabalho_voluntario] ~[summer]
+    *[10%]~[oportunidade] ~[trabalho_voluntario] ~[estagio] ~[summer]
+    *[10%]~[oportunidade] ~[trabalho_voluntario] ~[estagio]
+    *[10%]~[oportunidade] ~[trabalho_voluntario]
+    *[10%]~[oportunidade] ~[estagio] ~[summer]
+    *[10%]~[oportunidade] ~[trabalho_voluntario] ~[summer]
 
-%[regioes_atuacao]('training': '50')
-    ~[regioes] ~[fundacao_lemann] ~[atua]
-    ~[fundacao_lemann] ~[atua] ~[regioes]
-    ~[regioes] ~[atua]
-    ~[atua] ~[regioes]
+%[regioes_atuacao]('training': '100', 'testing': '10')
+    *[25%]~[regioes] ~[fundacao_lemann] ~[atua]
+    *[25%]~[fundacao_lemann] ~[atua] ~[regioes]
+    *[25%]~[regioes] ~[atua]
+    *[25%]~[atua] ~[regioes]
 
-%[privatizar_educacao]('training': '50')
-    ~[lemann] ~[privatizar] ~[educacao]
-    ~[privatizar] ~[educacao]
-    ~[privatizar] ~[educacao] ~[lemann]
+%[privatizar_educacao]('training': '100', 'testing': '10')
+    *[33%]~[lemann] ~[privatizar] ~[educacao]
+    *[33%]~[privatizar] ~[educacao]
+    *[33%]~[privatizar] ~[educacao] ~[lemann]
 
-%[apoio_educacao]('training': '50')
-    ~[por_que] ~[lemann] ~[apoia] ~[educacao]
-    ~[por_que] ~[lemann] ~[apoia] ~[educacao] ~[interesses] ~[motivacoes]
-    ~[por_que] ~[lemann] ~[apoia] ~[educacao] ~[interesses]
-    ~[por_que] ~[lemann] ~[apoia] ~[educacao] ~[motivacoes]
+%[apoio_educacao]('training': '100', 'testing': '10')
+    *[25%]~[por_que] ~[lemann] ~[apoia] ~[educacao]
+    *[25%]~[por_que] ~[lemann] ~[apoia] ~[educacao] ~[interesses] ~[motivacoes]
+    *[25%]~[por_que] ~[lemann] ~[apoia] ~[educacao] ~[interesses]
+    *[25%]~[por_que] ~[lemann] ~[apoia] ~[educacao] ~[motivacoes]
 
-%[talentos_saude]('training': '50')
-    ~[oque] ~[talentos_saude]
-    ~[talentos_saude] ~[oque]
-    ~[talentos_saude]
+%[talentos_saude]('training': '100', 'testing': '10')
+    *[33%]~[oque] ~[talentos_saude]
+    *[33%]~[talentos_saude] ~[oque]
+    *[33%]~[talentos_saude]
 
-%[talentos_educacao]('training': '50')
-    ~[oque] ~[talentos_educacao]
-    ~[talentos_educacao] ~[oque]
-    ~[talentos_educacao]
+%[talentos_educacao]('training': '100', 'testing': '10')
+    *[33%]~[oque] ~[talentos_educacao]
+    *[33%]~[talentos_educacao] ~[oque]
+    *[33%]~[talentos_educacao]
 
-%[terceiro_setor_transforma]('training': '50')
-    ~[oque] ~[terceiro_setor]
-    ~[terceiro_setor] ~[oque]
-    ~[terceiro_setor]
+%[terceiro_setor_transforma]('training': '100', 'testing': '10')
+    *[33%]~[oque] ~[terceiro_setor]
+    *[33%]~[terceiro_setor] ~[oque]
+    *[33%]~[terceiro_setor]
 
-%[apoio_renovacao_politica]('training': '50')
-    ~[fundacao_lemann] ~[apoia] ~[iniciativas] ~[renovacao_politica]
-    ~[apoia] ~[iniciativas] ~[renovacao_politica]
+%[apoio_renovacao_politica]('training': '100', 'testing': '10')
+    *[50%]~[fundacao_lemann] ~[apoia] ~[iniciativas] ~[renovacao_politica]
+    *[50%]~[apoia] ~[iniciativas] ~[renovacao_politica]
 
 #1. Qual a missão da Fundação Lemann?
 ~[fundacao_lemann]

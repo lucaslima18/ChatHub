@@ -1,0 +1,190 @@
+%[receber_bolsas]('training': '100', 'testing': '17')
+    *[20%] ~[como] ~[posso] ~[concorrer] ~[a_uma] ~[bolsa_estudos] ~[da] ~[fundacao_lemann]
+    *[20%] ~[como] ~[concorro] ~[a_uma] ~[bolsa_estudos] ~[da] ~[fundacao_lemann]
+    *[20%] ~[como] ~[concorrer] ~[bolsa_estudos]
+    *[20%] ~[concorrer] ~[bolsa_estudos] ~[da] ~[fundacao_lemann]
+    *[20%] ~[concorrer] ~[bolsa_estudos]
+
+%[ofertado_fundacao]('training': '100', 'testing': '17')
+    *[12%] ~[como] ~[posso] ~[concorrer] ~[a_uma] ~[bolsa_estudos] ~[da] ~[fundacao_lemann]
+    *[12%]~[quais] ~[tipos_de] ~[bolsa_estudos] ~[sao] ~[ofertadas] ~[da] ~[fundacao_lemann]
+    *[12%]~[tipos_de] ~[bolsa_estudos] ~[sao] ~[ofertadas] ~[da] ~[fundacao_lemann]
+    *[12%]~[quais] ~[tipos_de] ~[bolsa_estudos] ~[ofertadas] 
+    *[12%]~[bolsa_estudos] ~[ofertadas] ~[da] ~[fundacao_lemann]
+    *[12%]~[quais] ~[tipos_de] ~[bolsa_estudos] ~[da] ~[fundacao_lemann] ~[sao] ~[ofertadas]
+    *[12%]~[tipos_de] ~[bolsa_estudos] ~[ofertadas]
+    *[12%]~[quais] ~[bolsa_estudos] a ~[fundacao_lemann]
+
+%[parceria_universidade]('training': '100', 'testing': '17')
+    *[10%] ~[como] ~[posso] ~[concorrer] ~[a_uma] ~[bolsa_estudos] ~[da] ~[fundacao_lemann]
+    *[10%] ~[bolsa_estudos] ~[da] ~[fundacao_lemann] ~[para] ~[universidade] @[nacionais]
+    *[10%] ~[existem] ~[bolsa_estudos] ~[para] ~[universidade] @[nacionais]
+    *[10%] ~[bolsa_estudos] ~[da] ~[fundacao_lemann] ~[para] ~[universidade]
+    *[10%] ~[existem] ~[bolsa_estudos] ~[para] ~[universidade]
+    *[10%] ~[bolsa_estudos] ~[para] ~[universidade] @[nacionais]
+    *[10%] ~[bolsa_estudos] ~[para] ~[universidade]
+    *[10%] ~[fundacao_lemann] ~[tem] parceria com ~[universidade] @[nacionais]
+    *[10%] ~[fundacao_lemann] ~[tem] parceria com ~[quais] ~[universidade]
+    *[10%] ~[quais] cursos em ~[universidade] a ~[fundacao_lemann] ~[tem] ~[bolsa_estudos]
+
+%[lemann_fellowship]('training': '100', 'testing': '17')
+    *[25%] ~[como] ~[posso] ~[concorrer] ~[a_uma] ~[bolsa_estudos] ~[da] ~[fundacao_lemann]
+    *[25%] ~[oque] ~[eh] ~[o] ~[Lemann Fellowship]
+    *[25%] ~[oque] ~[eh] ~[Lemann Fellowship]
+    *[25%] ~[Lemann Fellowship]
+
+%[ponte_talentos]('training': '100', 'testing': '17')
+    *[20%] ~[como] ~[posso] ~[concorrer] ~[a_uma] ~[bolsa_estudos] ~[da] ~[fundacao_lemann]
+    *[20%] ~[como] ~[posso] ~[fazer_parte] do ~[ponte de talentos]
+    *[20%] ~[como] ~[fazer_parte] do ~[ponte de talentos]
+    *[20%] ~[fazer_parte] do ~[ponte de talentos]
+    *[20%] ~[ponte de talentos]
+
+#1.Como faço para concorrer/ganhar/receber uma bolsa de estudo da Fundação Lemann?
+~[como]
+    como
+    de que forma
+
+~[posso]
+    eu posso
+    posso
+    eu poderia
+
+~[da]
+    pela
+    da
+    na
+
+~[a_uma]
+    por uma
+    a uma
+    a
+
+~[concorrer]
+    concorrer
+    me inscrerver
+    ganhar
+    conseguir
+    receber
+    obter
+
+~[concorro]
+    concorro
+    ganho
+    me inscrevo
+    consigo
+    recebo
+    obtenho
+
+~[bolsa_estudos]
+    bolsa
+    bolsas
+    bolsa de estudos
+    bolsas de estudo
+    subsídio
+    subsidio
+
+~[fundacao_lemann]
+    fundação lemann
+    fundação leman
+    fundação lema
+    fundacao lemann
+    fundacao leman
+    fundacao lema
+    FL
+
+#2.Em quais faculdades e cursos são oferecidas bolsas? Quais bolsas a Fundação Lemann oferece? Que tipo de bolsa de estudos a FL tem?
+~[quais]
+    quais
+    que
+    q
+
+~[tipos_de]
+    tipos de
+    que tipo de
+    qual tipo de
+
+~[ofertadas]
+    ofertada
+    ofertadas
+    oferece
+    disponivel
+    disponiveis
+    disponível
+    disponíveis
+
+~[sao]
+    sao
+    são
+
+#3.Existem bolsas de estudo para universidades brasileiras? A FL tem parceria com universidades brasileiras? Quais cursos em universidades brasileiras a FL apoia/tem bolsas? Existem bolsas para graduação?
+~[existem]
+    existem
+    tem
+    há
+    há
+
+~[para]
+    para
+    pra
+
+~[universidade]
+    universidade
+    universidades
+    faculdade
+    faculdades
+    instituições de ensino superior
+    instituição de ensino superior
+    instituicao de ensino superior
+    instituicoes de ensino superior
+    graduacao
+    graduações
+    graduacoes
+    graduação
+
+@[nacionais]
+    nacionáis
+    nacionais
+    brasileiras
+    brs
+    br
+
+~[tem]
+    tem
+    possui
+    apoia
+    disponibiliza
+
+#5.O que é o programa Lemann Fellowship? 
+~[Lemann Fellowship]
+    programa Lemann Fellowship
+    Lemann Fellowship
+    iniciativa Lemann Fellowship
+
+~[oque]
+    oq
+    oque
+    o que
+    qq
+    o quê
+
+~[eh]
+    é
+    seria
+
+~[o]
+    o
+    esse
+    esse tal de
+
+#6.Como fazer parte do Ponte de Talentos?
+~[fazer_parte]
+    faço parte
+    faco parte
+    fazer parte
+    participar
+
+~[ponte de talentos]
+    ponte de talentos
+    programa ponte de talentos
+    iniciativa ponte de talentos

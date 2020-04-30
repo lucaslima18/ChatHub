@@ -1,0 +1,318 @@
+%[ser_parceiro]('training': '100', 'testing': '24')
+    *[16%]~[quero] ~[parceria] ~[fundacao_lemann]
+    *[16%]~[como_fazer] ~[parceira] ~[fundacao_lemann]
+    *[16%]~[fundacao_lemann] ~[apoio] ~[projeto] ~[ong] ~[startup]
+    *[16%]~[fundacao_lemann] ~[apoio] ~[projeto]
+    *[16%]~[fundacao_lemann] ~[apoio] ~[ong]
+    *[16%]~[fundacao_lemann] ~[apoio] ~[startup]
+
+%[fundacao_apoia]('training': '100', 'testing': '24')
+    *[33%]~[oque] ~[fundacao_lemann] ~[apoio]
+    *[33%]~[fundacao_lemann] ~[apoio]
+    *[33%]~[fundacao_lemann] ~[apoio] ~[oque]
+
+%[apoio_financeiro_projeto]('training': '100', 'testing': '24')
+    *[20%]~[projeto] ~[apoio_financeiro]
+    *[20%]~[apoio_financeiro] ~[projeto]
+    *[20%]~[fundacao_lemann] ~[apoio_financeiro] ~[projeto]
+    *[20%]~[apoio_financeiro] ~[projeto] ~[fundacao_lemann]
+    *[20%]~[apoio_financeiro] ~[fundacao_lemann] ~[projeto]
+
+%[apoio_financeiro_dificuldade]('training': '100', 'testing': '24')
+    *[25%]~[dificuldade] ~[financeiro] ~[apoio_financeiro]
+    *[25%]~[apoio_financeiro] ~[dificuldade] ~[financeiro]
+    *[25%]~[dificuldade] ~[financeiro] ~[fundacao_lemann] ~[apoio_financeiro]
+    *[25%]~[dificuldade] ~[financeiro] ~[apoio_financeiro] ~[fundacao_lemann]
+
+%[apoio_financeiro_crowdfunding]('training': '100', 'testing': '24')
+    *[11%]~[crowdfunding] ~[apoio_financeiro] ~[divulgacao]
+    *[11%]~[crowdfunding] ~[divulgacao]
+    *[11%]~[crowdfunding] ~[apoio_financeiro]
+    *[11%]~[crowdfunding] ~[apoio_financeiro] ~[divulgacao] ~[fundacao_lemann]
+    *[11%]~[crowdfunding] ~[divulgacao] ~[fundacao_lemann]
+    *[11%]~[crowdfunding] ~[apoio_financeiro] ~[fundacao_lemann]
+    *[11%]~[crowdfunding] ~[fundacao_lemann] ~[apoio_financeiro] ~[divulgacao]
+    *[11%]~[crowdfunding] ~[fundacao_lemann] ~[divulgacao] 
+    *[11%]~[crowdfunding] ~[fundacao_lemann] ~[apoio_financeiro]
+
+#Quero ser parceiro da Fundação Lemann/Como ser parceiro da Fundação Lemann/A Fundação Lemann pode apoiar meu projeto/ONG/startup?
+~[fundacao_lemann]
+    fundação lemann
+    fundação leman
+    fundação lema
+    fundacao lemann
+    fundacao leman
+    fundacao lema
+    FL
+
+~[parceria]
+    parceria
+    parceira
+    parceiro
+    ser parceiro
+    ser parceira
+    tornar parceiro
+    tornar parceira
+
+~[projetos]
+    projetos
+    projeto
+
+~[ong]
+    ONG
+    ong
+    organização
+    organizacao
+
+~[startup]
+    startup
+    microempresa
+    micro-empresa
+    emprezinha
+    negócio
+    negocio
+    empresa
+
+~[apoio]
+    apoia
+    da apoio
+    presta apoio
+    apoio
+    ajuda
+    favorece
+    secunda
+    protege
+    apadrinha
+    apadroa
+    colabora
+    colaborou
+    ajuda
+
+#O que e quem a Fundação Lemann apoia?
+
+#Tenho um projeto e preciso de apoio financeiro.
+~[apoio_financeiro]
+    ~[apoio] ~[fianceiro]
+
+~[fianceiro]
+    dinheiro
+    com dinheiro
+    monetário
+    monetario
+    captal
+    capital
+    grana
+    financeiro
+    finanças
+    financiamento
+    financiar
+    financas
+
+#Estou passando por dificuldades e preciso de ajuda financeira.
+~[dificuldade]
+    dificuldade
+    dificil
+    difícil
+    barra pesada
+    problema
+    problemas
+    adverso
+    adversidade
+    tribulação
+    tribulacao
+    perrengue
+
+#Estou fazendo um crowdfunding e preciso de ajuda financeira e divulgação.
+~[divulgacao]
+    duvulgação
+    divulgacao
+    divulgar
+    marketing
+    propaganda
+
+~[crowdfunding]
+    crowdfunding
+    financiamento coletivo
+    vaquinha
+
+################################################################################################
+##################################### COMMON TERMS #############################################
+################################################################################################
+~[por_que]
+    por que
+    por qual motivo
+    por qual razão
+    por qual razao
+    pq
+    porque
+    por que motivo
+    por que razão
+    por que razao
+
+~[quando]
+    em que momento
+    em que ocasião
+    a partir de quando
+    quando 
+    em que situação
+
+~[deve_ser]
+    é
+    deve ser
+    é preciso
+
+~[da]
+    de
+    da
+    do
+    das
+    dos
+
+~[sobre]
+    sobre 
+    referente a
+    pertinente a
+
+~[falta]
+    ausencia
+    falta
+    sem
+    ausência
+
+~[qual]
+    qual
+    quale
+    qual é
+    qual seria
+
+~[pode]
+    pode 
+    tem Como
+    é possível
+    poderia
+    pode ser
+
+~[entrada]
+    entrada
+    entrou
+    entra
+
+~[tenho]
+    tenho
+    possuo
+    disponho
+
+~[como_fazer]
+    ~[como_fazer2]
+    ~[como_faco]
+    ~[fazer]
+    ~[solicitar]
+    ~[onde] ~[fazer]
+    ~[onde] ~[faço] ~[realizar?]
+    ~[onde] ~[faço] ~[solicitar?]
+    etapas
+    quais os passos
+    quais as etapas
+
+~[como_fazer2]
+    como ~[fazer] ~[para_realizar?]
+    como ~[fazer] ~[para_solicitar?]
+
+~[como_faco]
+    como ~[faço] ~[realizar?]
+    como ~[faço] ~[solicitar?]
+
+~[para_realizar]
+    ~[para] ~[realizar]
+
+~[para_solicitar]
+    ~[para] ~[solicitar]
+
+~[realizar]
+    realizar
+    fazer
+
+~[solicitar]
+    solicitar
+    pedir
+
+~[para]
+    para
+    pra
+
+~[fazer]
+    realizar
+    fazer
+    posso fazer
+
+~[faço]
+    faço ~[para?]
+    realizo
+    posso
+    consigo
+
+~[oque]
+    oq
+    oque
+    o que
+    qq
+    o quê
+    oq é
+    oque é
+    o que é
+    qq é
+    o quê é
+
+~[onde]
+    onde
+    qual local
+    qual lugar
+    que lugar
+    que local
+
+~[quanto]
+    quanto
+    qt
+
+~[custa]
+    custa
+    preço
+    valor
+    precisa pagar
+    preciso pagar
+
+~[requisito]
+    preciso
+    necessário
+    requisito
+    pedido
+
+~[diz]
+    diz
+    me diz
+    me conta 
+    me explica
+
+~[quem_pode]
+    ~[quem] ~[pode]
+    eu posso
+    ~[quem] ~[faz]
+
+~[quem]
+    quem
+    qm
+    qual pessoa
+
+~[faz]
+    faz
+    solicita
+    realiza
+    emiti
+    emite
+
+~[quero]
+    quero
+    querendo
+    desejo
+    desejando
+    adoraria
