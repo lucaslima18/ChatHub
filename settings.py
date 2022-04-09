@@ -10,6 +10,6 @@ arguments = parser.parse_args()
 LANGUAGE = arguments.language
 SERVICE_TYPE = arguments.service
 REPOSITORY_UUID = arguments.repository_uuid
-AUTH_TOKEN = "Token 5ef90351e1b8bb19761e98e03773f0d20f3f94de"
+AUTH_TOKEN = ""
 
 
